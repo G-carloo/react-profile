@@ -1,0 +1,17 @@
+.navbar {
+  background-color: red;
+}
+
+.round-image {
+  width: 150;
+  height: 150;
+  border-radius: 400 / 2;
+}
+
+.btn {
+  display: subgrid;
+}
+
+.ul {
+  display: inline;
+}

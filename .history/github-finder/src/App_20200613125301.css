@@ -1,0 +1,12 @@
+.navbar {
+  background-color: red;
+  text-decoration: white;
+  align-content: center;
+  align-self: auto;
+}
+
+.round-image {
+  width: 150;
+  height: 150;
+  border-radius: 400 / 2;
+}
