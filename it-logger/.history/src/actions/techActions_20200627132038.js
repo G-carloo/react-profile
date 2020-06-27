@@ -28,13 +28,13 @@ export const getTechs = () => async (dispatch) => {
 };
 
 // Add technician to server
-export const addTech = (tech) => async (dispatch) => {
+export const addTechs = () => async (dispatch) => {
   try {
     setLoading();
 
     const res = await fetch("/techs", {
       method: "POST",
-      body: JSON.stringify(tech),
+      body: JSON.stringify(techs),
       headers: {
         "Content-Type": "application/json",
       },
@@ -44,27 +44,6 @@ export const addTech = (tech) => async (dispatch) => {
     dispatch({
       type: ADD_TECH,
       payload: data,
-    });
-  } catch (err) {
-    dispatch({
-      type: TECHS_ERROR,
-      payload: err.response.statusText,
-    });
-  }
-};
-
-//
-export const deleteTech = (id) => async (dispatch) => {
-  try {
-    setLoading();
-
-    await fetch(`/techs/${id}`, {
-      method: "DELETE",
-    });
-
-    dispatch({
-      type: DELETE_TECH,
-      payload: id,
     });
   } catch (err) {
     dispatch({

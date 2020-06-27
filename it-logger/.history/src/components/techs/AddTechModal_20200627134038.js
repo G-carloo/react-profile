@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 import { addTech } from "../../actions/techActions";
 import M from "materialize-css/dist/js/materialize.min.js";
 
-const AddTechModal = ({ addTech }) => {
+const AddTechModal = () => {
   const [firstName, setFirstName] = useState(" ");
   const [lastName, setLastName] = useState(" ");
 
@@ -16,8 +16,6 @@ const AddTechModal = ({ addTech }) => {
         firstName,
         lastName,
       });
-
-      M.toast({ html: `${firstName} ${lastName} has been added as a tech` });
 
       //   Clear Fields
       setFirstName("");
