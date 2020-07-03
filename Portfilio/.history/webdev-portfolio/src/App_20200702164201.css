@@ -1,0 +1,83 @@
+/*  Picture styling*/
+.image {
+  border-radius: 50%;
+  height: 200px;
+  width: 250px;
+}
+
+.image a:hover {
+  background-color: darkred;
+}
+
+/* container styles*/
+.container {
+  display: flex;
+  justify-content: start;
+  align-self: auto;
+  flex-flow: row;
+  background-image: url(https://picsum.photos/700/900);
+}
+
+/* row styling */
+.row {
+  flex-flow: wrap;
+}
+
+/* Heading styles */
+.Main-Heading {
+  text-align: center;
+}
+
+/* Landing Page styles*/
+.Landing-Page {
+  background-size: cover;
+  background-image: url(https://picsum.photos/700/900);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+  opacity: 1;
+}
+
+/* Modal-body */
+.modal-body {
+  margin: 20px;
+}
+
+/* Sub-head */
+.sub-head {
+  margin: 20px;
+}
+
+/* Navbar */
+.navbar {
+  overflow: initial;
+  top: o;
+  width: 100%;
+  text-align: right;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: blue;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background: red;
+}
+.search-container {
+  float: inline-end;
+}
+
+.col-md-3 {
+  padding: 10px;
+  text-align: start;
+  text-shadow: black;
+  text-decoration: none;
+}
