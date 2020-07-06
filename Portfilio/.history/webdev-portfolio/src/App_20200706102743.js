@@ -7,7 +7,7 @@ import Passion from "./components/pages/Passion";
 import Experience from "./components/pages/Experience";
 import Work from "./components/pages/Work";
 import Contact from "./components/pages/Contact";
-import MyForm from "./components/pages/Form";
+import form from './components/pages/Form'
 import Modal from "./components/pages/modal";
 import Footer from "./components/pages/Footer";
 
@@ -21,8 +21,8 @@ const App = () => {
       <Experience />
       <Work />
       <Contact />
-      {/* <Modal /> */}
-      <MyForm />
+      <Modal />
+      <
       <Footer />
     </div>
   );

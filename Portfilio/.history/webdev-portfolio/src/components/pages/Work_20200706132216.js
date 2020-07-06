@@ -30,6 +30,7 @@ const Work = () => {
           alongside with and I'm sure he will be a great person to know in the
           future" - Micheal bruer
         </p>
+        <p></p>
       </div>
     </div>
   );

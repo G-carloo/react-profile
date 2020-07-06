@@ -25,11 +25,6 @@ const Work = () => {
           "He's consistency shows that he is dedicated to his work" - Moghamed
           Junaid Salie
         </p>
-        <p>
-          "Ganief always tries his best and is a dependable person to code
-          alongside with and I'm sure he will be a great person to know in the
-          future" - Micheal bruer
-        </p>
       </div>
     </div>
   );

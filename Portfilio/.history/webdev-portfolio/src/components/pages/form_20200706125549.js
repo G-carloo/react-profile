@@ -18,7 +18,7 @@ export default class MyForm extends React.Component {
         method='POST'
       >
         {/* <!-- add your custom form HTML here --> */}
-        <div className='form'>
+        <div className='form-text'>
           <label>Email:</label>
           <input type='email' name='email' placeholder='Enter email . . .' />
           <label>Message:</label>

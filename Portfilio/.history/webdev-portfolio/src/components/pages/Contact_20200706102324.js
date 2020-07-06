@@ -1,9 +1,9 @@
 import React from "react";
 import Modal from "./modal";
 
-const onemail = () => {
-  return <Modal />;
-};
+const onemail = {
+  <Modal />
+}
 
 const Contact = () => {
   return (
@@ -11,9 +11,7 @@ const Contact = () => {
       <div className='text-center'>
         <button>
           <h2 id='Contact'>
-            <a href='#modal' onClick={onemail}>
-              Get in touch
-            </a>
+            <a href='#modal' onClick={onemail}>Get in touch</a>
           </h2>
         </button>
       </div>

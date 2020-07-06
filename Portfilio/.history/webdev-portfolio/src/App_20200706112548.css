@@ -67,6 +67,11 @@ img {
   padding: 100px;
 }
 
+.textp {
+  text-align: center;
+  padding: 70px;
+}
+
 .text-right {
   text-align: right;
   padding: 30px;
@@ -272,59 +277,11 @@ table th {
       left: calc(50% - 250px);
     }
   }
-  .Backdrop {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    z-index: 100;
-    left: 0;
-    top: 0;
-    background-color: rgba(0, 0, 0, 0.5);
-  }
-
-  /* Form styles */
-  form {
-    text-align: center;
-    padding: 100px;
-    justify-content: center;
-    box-sizing: border-box;
-    box-shadow: black;
-    width: 50px;
-  }
-  input {
-    width: 60px;
-    padding: 30;
-  }
 
   /* footer */
-  .footer-center {
+  .footer {
+    background-color: black;
     text-align: center;
-    padding: 100px;
-    align-self: center;
-  }
-
-  body {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-  }
-
-  #myBtn {
-    display: none;
-    position: fixed;
-    bottom: 20px;
-    right: 30px;
-    z-index: 99;
-    font-size: 18px;
-    border: none;
-    outline: none;
-    background-color: red;
-    color: white;
-    cursor: pointer;
-    padding: 15px;
-    border-radius: 4px;
-  }
-
-  #myBtn:hover {
-    background-color: #555;
+    justify-content: center;
   }
 }

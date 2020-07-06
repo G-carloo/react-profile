@@ -16,6 +16,7 @@ const Contact = () => {
             </a>
           </h2>
         </button>
+        <button href='#modal'>More Info</button>
       </div>
     </div>
   );

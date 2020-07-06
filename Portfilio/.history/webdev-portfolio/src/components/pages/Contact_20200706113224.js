@@ -16,6 +16,9 @@ const Contact = () => {
             </a>
           </h2>
         </button>
+        <Modal show={this.state.modalToggle}>
+          <div style={{ color: "black" }}>The Best Has Happened To ME</div>
+        </Modal>
       </div>
     </div>
   );

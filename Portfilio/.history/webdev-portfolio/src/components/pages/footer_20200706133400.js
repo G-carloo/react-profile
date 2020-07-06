@@ -27,7 +27,7 @@ function topFunction() {
 
 const Footer = () => {
   return (
-    <div className='footer-center'>
+    <div className='text-center'>
       <GithubFilled
         href='https://github.com/G-carloo'
         onClick={"https://github.com/G-carloo"}

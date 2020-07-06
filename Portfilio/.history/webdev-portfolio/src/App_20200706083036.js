@@ -7,9 +7,8 @@ import Passion from "./components/pages/Passion";
 import Experience from "./components/pages/Experience";
 import Work from "./components/pages/Work";
 import Contact from "./components/pages/Contact";
-import MyForm from "./components/pages/Form";
-import Modal from "./components/pages/modal";
 import Footer from "./components/pages/Footer";
+import Modal from "./components/pages/modal";
 
 const App = () => {
   return (
@@ -21,8 +20,6 @@ const App = () => {
       <Experience />
       <Work />
       <Contact />
-      {/* <Modal /> */}
-      <MyForm />
       <Footer />
     </div>
   );

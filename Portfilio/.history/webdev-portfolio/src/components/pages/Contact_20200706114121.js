@@ -16,6 +16,14 @@ const Contact = () => {
             </a>
           </h2>
         </button>
+        <button
+          type='button'
+          class='btn btn-primary'
+          data-toggle='modal'
+          data-target='#Employee1'
+        >
+          More Info
+        </button>
       </div>
     </div>
   );

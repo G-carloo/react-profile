@@ -67,6 +67,11 @@ img {
   padding: 100px;
 }
 
+.textp {
+  text-align: center;
+  padding: 70px;
+}
+
 .text-right {
   text-align: right;
   padding: 30px;
@@ -283,24 +288,16 @@ table th {
   }
 
   /* Form styles */
-  form {
+  .form {
     text-align: center;
-    padding: 100px;
-    justify-content: center;
-    box-sizing: border-box;
-    box-shadow: black;
-    width: 50px;
-  }
-  input {
-    width: 60px;
-    padding: 30;
+    padding: 30px;
   }
 
   /* footer */
-  .footer-center {
+  .footer {
+    background-color: black;
     text-align: center;
-    padding: 100px;
-    align-self: center;
+    justify-content: center;
   }
 
   body {

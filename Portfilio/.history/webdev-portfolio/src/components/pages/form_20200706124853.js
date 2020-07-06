@@ -18,18 +18,12 @@ export default class MyForm extends React.Component {
         method='POST'
       >
         {/* <!-- add your custom form HTML here --> */}
-        <div className='form'>
-          <label>Email:</label>
-          <input type='email' name='email' placeholder='Enter email . . .' />
-          <label>Message:</label>
-          <input
-            type='text'
-            name='message'
-            placeholder="What's on your mind ?"
-          />
-          {status === "SUCCESS" ? <p>Thanks!</p> : <button>Submit</button>}
-          {status === "ERROR" && <p>Ooops! There was an error.</p>}
-        </div>
+        <label className='email'>Email:</label>
+        <input type='email' name='email' placeholder='Enter email . . .' />
+        <label>Message:</label>
+        <input type='text' name='message' />
+        {status === "SUCCESS" ? <p>Thanks!</p> : <button>Submit</button>}
+        {status === "ERROR" && <p>Ooops! There was an error.</p>}
       </form>
     );
   }

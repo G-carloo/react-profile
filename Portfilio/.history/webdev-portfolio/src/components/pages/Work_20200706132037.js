@@ -26,9 +26,9 @@ const Work = () => {
           Junaid Salie
         </p>
         <p>
-          "Ganief always tries his best and is a dependable person to code
-          alongside with and I'm sure he will be a great person to know in the
-          future" - Micheal bruer
+          "Ganief always trys his best and is a Dependable person to code
+          alongside with and im sure he will be one great person to know in the
+          futer" -there just fix the mistakes XD
         </p>
       </div>
     </div>
