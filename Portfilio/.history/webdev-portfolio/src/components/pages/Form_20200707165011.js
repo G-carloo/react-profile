@@ -1,9 +1,8 @@
 import React from "react";
 
 const form = {
-  padding: "40px",
-  width: "300px",
-  display: "flex-box",
+  padding: "50px",
+  width: "50px",
 };
 
 export default class MyForm extends React.Component {

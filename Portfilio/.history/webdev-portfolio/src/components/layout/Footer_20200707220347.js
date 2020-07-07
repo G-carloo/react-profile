@@ -21,7 +21,7 @@ const Footer = () => {
       <a href='https://codepen.io/G-carloo'>
         <CodepenCircleOutlined style={icon} />
       </a>
-      <h5 className='main'>Ganief Carloo 2020</h5>
+      <h6 className='main'>Ganief Carloo 2020</h6>
       <h4 className='heart'>
         <HeartFilled />
         <HeartFilled />

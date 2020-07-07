@@ -1,7 +1,7 @@
 import React from "react";
 
 const form = {
-  padding: "40px",
+  padding: "50px",
   width: "300px",
   display: "flex-box",
 };

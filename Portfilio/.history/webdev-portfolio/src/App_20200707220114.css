@@ -76,6 +76,9 @@ input {
   color: var(--light-color);
 }
 
+.navbar .welcome span {
+  /* margin-right: 0.6rem; */
+}
 .sticky {
   position: fixed;
   top: 0;

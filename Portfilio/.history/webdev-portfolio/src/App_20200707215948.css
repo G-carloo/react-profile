@@ -57,7 +57,9 @@ input {
 
 /* Navbar */
 .navbar {
+  /* display: flex; */
   justify-content: space-between;
+  /* align-items: center; */
   width: 100%;
   opacity: 0.9;
 }
@@ -76,6 +78,9 @@ input {
   color: var(--light-color);
 }
 
+.navbar .welcome span {
+  margin-right: 0.6rem;
+}
 .sticky {
   position: fixed;
   top: 0;
