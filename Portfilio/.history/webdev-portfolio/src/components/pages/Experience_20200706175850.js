@@ -15,7 +15,7 @@ const backgroundStyle = {
   backgroundattachment: "fixed",
   backgroundposition: "center",
   backgroundrepeat: "no-repeat",
-  // backgroundsize: "cover",
+  backgroundsize: "cover",
   padding: "100",
   float: "left",
 };

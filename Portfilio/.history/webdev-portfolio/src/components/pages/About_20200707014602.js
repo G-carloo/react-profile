@@ -26,7 +26,7 @@ const About = (props) => {
               solving new problems.
             </strong>
           </p>
-          <p className='text-center'>
+          <p className='textp'>
             <strong>
               When I'm not looking at a screen I enjoy keeping fit, learning new
               things, networking/connecting

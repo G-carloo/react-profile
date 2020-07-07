@@ -1,17 +1,17 @@
 import React from "react";
-import ModalComponent from "./modal";
+import Modal from "./modal";
 
 const onemail = () => {
-  return <ModalComponent />;
+  return <Modal />;
 };
 
 const Contact = () => {
   return (
     <div>
       <div className='text-center'>
-        <h2 id='Contact' className=''>
+        <h2 id='Contact'>
           <a href='#modal' onClick={onemail}>
-            <strong>Get in touch</strong>
+            Get in touch
           </a>
         </h2>
       </div>

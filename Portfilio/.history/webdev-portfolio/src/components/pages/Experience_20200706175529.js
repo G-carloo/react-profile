@@ -15,7 +15,7 @@ const backgroundStyle = {
   backgroundattachment: "fixed",
   backgroundposition: "center",
   backgroundrepeat: "no-repeat",
-  // backgroundsize: "cover",
+  backgroundsize: "cover",
   padding: "100",
   float: "left",
 };
@@ -90,9 +90,7 @@ const Experience = () => {
             <button>
               <strong>
                 <h3>
-                  <a href='CV_MOEGAMAT GANIEF CARLOO.pdf' download>
-                    CHECK OUT MY RESUME
-                  </a>
+                  <a href='CV_MOEGAMAT GANIEF CARLOO.pdf' download></a>
                 </h3>
               </strong>
             </button>

@@ -1,7 +1,6 @@
-import React from "react";
 import MyForm from "./Form";
 
-export default class ModalComponent extends React.Component {
+class ModalComponent extends React.Component {
   constructor(props) {
     super(props);
     this.state = {

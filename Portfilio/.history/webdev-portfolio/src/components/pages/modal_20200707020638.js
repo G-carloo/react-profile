@@ -1,4 +1,3 @@
-import React from "react";
 import MyForm from "./Form";
 
 export default class ModalComponent extends React.Component {
