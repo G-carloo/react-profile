@@ -34,7 +34,7 @@ ul {
 
 .text-left {
   text-align: left;
-  padding: 50px;
+  padding: 30px;
 }
 
 /* button styles */
@@ -90,18 +90,9 @@ input {
   top: 0;
   width: 100%;
 }
-.ul {
-  color: blue;
-}
 .main {
-  color: beige;
+  color: silver;
 }
-.heart {
-  color: red;
-}
-.about {
-  margin: 40px;
-}
-.footer {
-  color: black;
+.ul {
+  color: purple;
 }

@@ -27,7 +27,7 @@ const About = () => {
               out at school functions etc.
             </strong>
           </p>
-          <p className='about'>
+          <p className=''>
             <strong>
               When I'm not looking at a screen I enjoy keeping fit, learning a
               new skill, networking or connecting

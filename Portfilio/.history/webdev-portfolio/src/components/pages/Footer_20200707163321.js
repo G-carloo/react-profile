@@ -6,7 +6,7 @@ import {
 } from "@ant-design/icons";
 
 const footer = {
-  backgroundcolor: "",
+  backgroundcolor: "bg-dark",
 };
 
 const icon = {
@@ -17,7 +17,7 @@ const icon = {
 
 const Footer = () => {
   return (
-    <div className='text-center footer'>
+    <div className='text-center' style={footer}>
       <a href='https://github.com/G-carloo'>
         <GithubFilled style={icon} />
       </a>

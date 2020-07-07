@@ -17,7 +17,7 @@ const icon = {
 
 const Footer = () => {
   return (
-    <div className='text-center footer'>
+    <div className='text-center footer' style={footer}>
       <a href='https://github.com/G-carloo'>
         <GithubFilled style={icon} />
       </a>

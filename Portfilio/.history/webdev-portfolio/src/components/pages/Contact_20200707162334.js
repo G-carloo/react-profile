@@ -8,7 +8,6 @@ const Contact = () => {
         <h2 id='Contact' className=''>
           <strong>Get in touch</strong>
         </h2>
-        <h3 className='text-left'>Send me an Email</h3>
         <MyForm />
       </div>
     </div>

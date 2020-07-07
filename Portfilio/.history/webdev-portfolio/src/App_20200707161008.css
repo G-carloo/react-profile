@@ -25,6 +25,7 @@ ul {
 .text-center {
   text-align: center;
   padding: 90px;
+  text-emphasis-color: white;
 }
 
 .text-right {
@@ -34,7 +35,7 @@ ul {
 
 .text-left {
   text-align: left;
-  padding: 50px;
+  padding: 30px;
 }
 
 /* button styles */
@@ -43,7 +44,7 @@ ul {
 .badge-dark,
 .alert-dark {
   background: var(--dark-color);
-  color: beige;
+  color: #fff;
 }
 
 .btn:hover {
@@ -89,19 +90,4 @@ input {
   position: fixed;
   top: 0;
   width: 100%;
-}
-.ul {
-  color: blue;
-}
-.main {
-  color: beige;
-}
-.heart {
-  color: red;
-}
-.about {
-  margin: 40px;
-}
-.footer {
-  color: black;
 }

@@ -5,12 +5,9 @@ const navbar = {
   backgroundcolor: "blue",
 };
 
-const Navbar = () => {
+const Navbar = ({}) => {
   return (
-    <nav
-      className='navbar navbar-expand-sm bg-dark navbar-dark sticky'
-      style={navbar}
-    >
+    <nav className='navbar navbar-expand-sm bg-dark navbar-dark sticky'>
       <h1>
         <i />
         <pr>Ganief Carloo</pr>

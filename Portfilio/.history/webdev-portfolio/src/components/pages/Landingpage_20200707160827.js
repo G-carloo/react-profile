@@ -1,7 +1,7 @@
 import React from "react";
 
 const backgroundStyle = {
-  backgroundImage: `url(${"https://media.istockphoto.com/photos/farlacombe-farm-midnight-july-2019-picture-id1165109078?b=1&k=6&m=1165109078&s=170667a&w=0&h=XWKye5DbCng1jwa-EbVRpuV5cOKGGrtuXwz_00VGhro="})`,
+  backgroundImage: `url(${"https://cdn.pixabay.com/photo/2015/07/09/22/45/tree-838667__340.jpg"})`,
   height: "100vh",
   width: "100%",
   textdecoration: "white",

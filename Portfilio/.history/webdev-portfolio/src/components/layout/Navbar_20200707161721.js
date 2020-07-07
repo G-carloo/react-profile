@@ -2,15 +2,12 @@ import React from "react";
 import PropTypes from "prop-types";
 
 const navbar = {
-  backgroundcolor: "blue",
+  color: "blue",
 };
 
 const Navbar = () => {
   return (
-    <nav
-      className='navbar navbar-expand-sm bg-dark navbar-dark sticky'
-      style={navbar}
-    >
+    <nav className='navbar navbar-expand-sm bg-dark navbar-dark sticky'>
       <h1>
         <i />
         <pr>Ganief Carloo</pr>

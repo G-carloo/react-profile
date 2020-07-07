@@ -52,7 +52,7 @@ ul {
 
 /* Forms */
 input {
-  margin: 1rem 0;
+  /* margin: 1rem 0; */
 }
 
 /* Navbar */
@@ -90,18 +90,9 @@ input {
   top: 0;
   width: 100%;
 }
-.ul {
-  color: blue;
-}
 .main {
   color: beige;
 }
-.heart {
-  color: red;
-}
-.about {
-  margin: 40px;
-}
-.footer {
-  color: black;
+.ul {
+  color: blue;
 }
