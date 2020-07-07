@@ -1,7 +1,10 @@
 import React from "react";
 
 const form = {
+  textalign: "center",
   padding: "50px",
+  justifycontent: "center",
+  boxsizing: "border-box",
   width: "50px",
 };
 

@@ -1,9 +1,6 @@
 import React from "react";
 
-const form = {
-  padding: "50px",
-  width: "50px",
-};
+const form = {};
 
 export default class MyForm extends React.Component {
   constructor(props) {

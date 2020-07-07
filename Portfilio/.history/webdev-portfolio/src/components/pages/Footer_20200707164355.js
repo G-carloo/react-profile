@@ -9,7 +9,6 @@ const icon = {
   margin: "50px",
   padding: "5px",
   color: "blue",
-  height: "5px",
 };
 
 const Footer = () => {
@@ -21,7 +20,7 @@ const Footer = () => {
       <a href='https://codepen.io/G-carloo'>
         <CodepenCircleOutlined style={icon} />
       </a>
-      <h4 className='main'>Made by Ganief Carloo</h4>
+      <h4>Made by Ganief Carloo</h4>
       <h4 className='heart'>
         <HeartFilled />
         <HeartFilled />

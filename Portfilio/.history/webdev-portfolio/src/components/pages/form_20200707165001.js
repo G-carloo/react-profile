@@ -1,7 +1,9 @@
 import React from "react";
 
 const form = {
+  textalign: "center",
   padding: "50px",
+  justifycontent: "center",
   width: "50px",
 };
 

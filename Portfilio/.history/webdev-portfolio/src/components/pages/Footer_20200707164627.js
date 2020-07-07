@@ -9,7 +9,7 @@ const icon = {
   margin: "50px",
   padding: "5px",
   color: "blue",
-  height: "5px",
+  size: "5px",
 };
 
 const Footer = () => {

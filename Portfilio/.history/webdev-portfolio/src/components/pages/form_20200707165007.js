@@ -1,6 +1,7 @@
 import React from "react";
 
 const form = {
+  textalign: "center",
   padding: "50px",
   width: "50px",
 };

@@ -1,8 +1,11 @@
 import React from "react";
 
 const form = {
+  textalign: "center",
   padding: "50px",
-  width: "50px",
+  justifycontent: "center",
+  boxsizing: "border-box",
+  boxshadow: "black",
 };
 
 export default class MyForm extends React.Component {
