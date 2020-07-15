@@ -100,17 +100,9 @@ input {
 .flex {
   padding: 10px;
   margin: 10px;
+  display: flexbox;
+  flex-direction: row;
 }
 .lp {
   background-size: cover;
-}
-.work {
-  display: inline-flex;
-  flex-flow: row;
-  flex-direction: row;
-}
-.test {
-  display: inline-flex;
-  flex-flow: row;
-  flex-direction: row;
 }

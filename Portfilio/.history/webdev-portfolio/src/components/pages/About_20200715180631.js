@@ -7,7 +7,7 @@ const imgStyle = {
   backgroundsize: "cover",
   backgroundAttachment: "initial",
   padding: "80px",
-  margin: "10px",
+  margin: "",
 };
 
 const About = () => {

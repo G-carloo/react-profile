@@ -29,21 +29,29 @@ const reactjs1 = {
 };
 
 const python1 = {
+  height: "25vh",
+  width: "25vw",
   display: "inline-flex",
   margin: "10px",
 };
 
 const nodejs1 = {
+  height: "20vh",
+  width: "20vw",
   display: "inline-flex",
   margin: "10px",
 };
 
 const mysql1 = {
+  height: "20vh",
+  width: "20vw",
   display: "inline-flex",
   margin: "10px",
 };
 
 const mongodb1 = {
+  height: "25vh",
+  width: "25vw",
   display: "inline-flex",
   margin: "10px",
 };

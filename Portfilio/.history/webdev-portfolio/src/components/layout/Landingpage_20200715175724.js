@@ -5,13 +5,12 @@ const backgroundStyle = {
   height: "100vh",
   width: "100%",
   backgroundsize: "cover",
-  backgroundattachment: "scroll",
 };
 
 const Landingpage = () => {
   return (
     <div id='Top'>
-      <div style={backgroundStyle} className='text-center lp'>
+      <div style={backgroundStyle} className='text-center'>
         <h1 className='main'>
           HI, I'm Ganief
           <h6>Web developer & UX Enthusiast</h6>

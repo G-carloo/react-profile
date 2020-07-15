@@ -11,6 +11,7 @@ const backgroundStyle = {
   backgroundImage: `url(${"https://cdn.pixabay.com/photo/2017/09/14/22/42/milky-way-2750627__340.jpg"})`,
   height: "40vh",
   width: "100%",
+  backgroundattachment: "scroll",
 };
 
 const html1 = {

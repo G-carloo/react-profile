@@ -82,8 +82,7 @@ input {
   width: 100%;
 }
 .ul {
-  color: grey;
-  margin: inherit;
+  color: blue;
 }
 .main {
   color: beige;
@@ -100,17 +99,4 @@ input {
 .flex {
   padding: 10px;
   margin: 10px;
-}
-.lp {
-  background-size: cover;
-}
-.work {
-  display: inline-flex;
-  flex-flow: row;
-  flex-direction: row;
-}
-.test {
-  display: inline-flex;
-  flex-flow: row;
-  flex-direction: row;
 }

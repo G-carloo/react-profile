@@ -5,7 +5,7 @@ const backgroundStyle = {
   height: "100vh",
   width: "100%",
   backgroundsize: "cover",
-  backgroundattachment: "scroll",
+  backgroundattachment: "fixed",
 };
 
 const Landingpage = () => {

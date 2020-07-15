@@ -11,7 +11,7 @@ const Passion = (props) => {
       <h2 id='Passion' className='text-center'>
         My interests are
       </h2>
-      <div className='work'>
+      <div className='flex'>
         <div></div>
         <LaptopOutlined />
         <h4>

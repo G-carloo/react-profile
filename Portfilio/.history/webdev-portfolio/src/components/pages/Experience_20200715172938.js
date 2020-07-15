@@ -14,39 +14,48 @@ const backgroundStyle = {
 };
 
 const html1 = {
+  height: "50vh",
+  width: "25vw",
   display: "inline-flex",
   margin: "10px",
 };
 
 const es61 = {
+  height: "23vh",
+  width: "23vw",
   display: "inline-flex",
-  margin: "10px",
 };
 
 const reactjs1 = {
+  height: "23vh",
+  width: "23vw",
   display: "inline-flex",
-  margin: "10px",
 };
 
 const python1 = {
+  height: "25vh",
+  width: "25vw",
   display: "inline-flex",
-  margin: "10px",
 };
 
 const nodejs1 = {
+  height: "20vh",
+  width: "20vw",
   display: "inline-flex",
-  margin: "10px",
-};
-
-const mysql1 = {
-  display: "inline-flex",
-  margin: "10px",
 };
 
 const mongodb1 = {
+  height: "25vh",
+  width: "25vw",
   display: "inline-flex",
-  margin: "10px",
 };
+
+const mysql1 = {
+  height: "20vh",
+  width: "20vw",
+  display: "inline-flex",
+};
+
 const btnStyles = {
   margin: "100px",
   backgrounfcolor: "black",
@@ -68,8 +77,8 @@ const Experience = () => {
           <img src={reactjs} alt='' style={reactjs1} />
           <img src={python} alt='' style={python1} />
           <img src={nodejs} alt='' style={nodejs1} />
-          <img src={mongodb} alt='' style={mongodb1} />
           <img src={mysql} alt='' style={mysql1} />
+          <img src={mongodb} alt='' style={mongodb1} />
         </div>
         <span>
           <div style={backgroundStyle}>

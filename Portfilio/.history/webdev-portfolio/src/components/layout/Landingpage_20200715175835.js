@@ -4,14 +4,13 @@ const backgroundStyle = {
   backgroundImage: `url(${"https://media.istockphoto.com/photos/farlacombe-farm-midnight-july-2019-picture-id1165109078?b=1&k=6&m=1165109078&s=170667a&w=0&h=XWKye5DbCng1jwa-EbVRpuV5cOKGGrtuXwz_00VGhro="})`,
   height: "100vh",
   width: "100%",
-  backgroundsize: "cover",
-  backgroundattachment: "scroll",
+  backgroundsize: "contain",
 };
 
 const Landingpage = () => {
   return (
     <div id='Top'>
-      <div style={backgroundStyle} className='text-center lp'>
+      <div style={backgroundStyle} className='text-center'>
         <h1 className='main'>
           HI, I'm Ganief
           <h6>Web developer & UX Enthusiast</h6>

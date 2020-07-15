@@ -44,6 +44,8 @@ const mysql1 = {
 };
 
 const mongodb1 = {
+  height: "25vh",
+  width: "25vw",
   display: "inline-flex",
   margin: "10px",
 };

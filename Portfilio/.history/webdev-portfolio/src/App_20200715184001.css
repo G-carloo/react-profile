@@ -109,8 +109,3 @@ input {
   flex-flow: row;
   flex-direction: row;
 }
-.test {
-  display: inline-flex;
-  flex-flow: row;
-  flex-direction: row;
-}

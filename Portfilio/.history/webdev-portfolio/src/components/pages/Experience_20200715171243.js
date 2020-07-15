@@ -14,39 +14,47 @@ const backgroundStyle = {
 };
 
 const html1 = {
-  display: "inline-flex",
-  margin: "10px",
+  height: "50vh",
+  width: "25vw",
+  display: "flex",
 };
 
 const es61 = {
-  display: "inline-flex",
-  margin: "10px",
+  height: "23vh",
+  width: "23vw",
+  display: "flex",
 };
 
 const reactjs1 = {
-  display: "inline-flex",
-  margin: "10px",
+  height: "23vh",
+  width: "23vw",
+  display: "flex",
 };
 
 const python1 = {
-  display: "inline-flex",
-  margin: "10px",
+  height: "25vh",
+  width: "25vw",
+  display: "flex",
 };
 
 const nodejs1 = {
-  display: "inline-flex",
-  margin: "10px",
-};
-
-const mysql1 = {
-  display: "inline-flex",
-  margin: "10px",
+  height: "20vh",
+  width: "20vw",
+  display: "flex",
 };
 
 const mongodb1 = {
-  display: "inline-flex",
-  margin: "10px",
+  height: "25vh",
+  width: "25vw",
+  display: "flex",
 };
+
+const mysql1 = {
+  height: "20vh",
+  width: "20vw",
+  display: "flex",
+};
+
 const btnStyles = {
   margin: "100px",
   backgrounfcolor: "black",
@@ -68,8 +76,8 @@ const Experience = () => {
           <img src={reactjs} alt='' style={reactjs1} />
           <img src={python} alt='' style={python1} />
           <img src={nodejs} alt='' style={nodejs1} />
-          <img src={mongodb} alt='' style={mongodb1} />
           <img src={mysql} alt='' style={mysql1} />
+          <img src={mongodb} alt='' style={mongodb1} />
         </div>
         <span>
           <div style={backgroundStyle}>

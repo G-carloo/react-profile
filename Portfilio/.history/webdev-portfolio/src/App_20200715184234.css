@@ -113,4 +113,6 @@ input {
   display: inline-flex;
   flex-flow: row;
   flex-direction: row;
+  padding: 50px;
+  margin: 20px;
 }
