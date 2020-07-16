@@ -107,15 +107,14 @@ input {
 }
 .work {
   display: inline-flex;
-  columns: 20px;
+  flex-flow: row;
+  flex-direction: row;
+  padding: initial;
+  margin: 10px;
+  justify-content: space-evenly;
 }
 .test {
   display: inline-flex;
   flex-flow: row;
   flex-direction: row;
-}
-.sub {
-  display: inline-flex;
-  padding: 5px;
-  margin: auto;
 }

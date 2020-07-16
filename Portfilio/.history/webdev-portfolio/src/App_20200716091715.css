@@ -107,15 +107,13 @@ input {
 }
 .work {
   display: inline-flex;
-  columns: 20px;
+  flex-flow: row;
+  flex-direction: row;
+  padding: inherit;
+  margin: auto;
 }
 .test {
   display: inline-flex;
   flex-flow: row;
   flex-direction: row;
-}
-.sub {
-  display: inline-flex;
-  padding: 5px;
-  margin: auto;
 }

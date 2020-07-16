@@ -11,7 +11,7 @@ const Passion = () => {
       <h2 id='Passion' className='text-center'>
         My interests are
       </h2>
-      <div className='sub'>
+      <div className='work'>
         <h4>
           <LaptopOutlined />
           <strong>

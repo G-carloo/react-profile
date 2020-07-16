@@ -114,8 +114,3 @@ input {
   flex-flow: row;
   flex-direction: row;
 }
-.sub {
-  display: inline-flex;
-  padding: 5px;
-  margin: auto;
-}
