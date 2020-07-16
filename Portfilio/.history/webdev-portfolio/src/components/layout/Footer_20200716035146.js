@@ -6,8 +6,8 @@ import {
 } from "@ant-design/icons";
 
 const icon = {
-  margin: "10px",
-  padding: "px",
+  margin: "20px",
+  padding: "5px",
   color: "white",
   fontsize: "xx-large",
 };
@@ -15,18 +15,14 @@ const icon = {
 const Footer = () => {
   return (
     <div className='text-center footer'>
-      <div className='test'>
-        <h4>
-          <a href='https://github.com/G-carloo'>
-            <GithubFilled style={icon} />
-          </a>
-        </h4>
-        <h4>
-          <a href='https://codepen.io/G-carloo'>
-            <CodepenCircleOutlined style={icon} />
-          </a>
-        </h4>
-      </div>
+      <h4>
+        <a href='https://github.com/G-carloo'>
+          <GithubFilled style={icon} />
+        </a>
+      </h4>
+      <a href='https://codepen.io/G-carloo'>
+        <CodepenCircleOutlined style={icon} />
+      </a>
       <h4 className='main'>Ganief Carloo 2020</h4>
       <h4 className='heart'>
         <HeartFilled />

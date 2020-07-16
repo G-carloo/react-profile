@@ -5,7 +5,7 @@ import {
   LineChartOutlined,
 } from "@ant-design/icons";
 
-const Passion = () => {
+const Passion = (props) => {
   return (
     <div className='text-center'>
       <h2 id='Passion' className='text-center'>
@@ -58,5 +58,7 @@ const Passion = () => {
     </div>
   );
 };
+
+Passion.propTypes = {};
 
 export default Passion;

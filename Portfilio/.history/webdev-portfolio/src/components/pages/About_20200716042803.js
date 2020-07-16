@@ -4,6 +4,7 @@ import Sun from "./Sun.jpg";
 const imgStyle = {
   width: "40vw",
   height: "500px",
+  backgroundsize: "cover",
   padding: "80px",
   margin: "10px",
 };

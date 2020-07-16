@@ -6,27 +6,22 @@ import {
 } from "@ant-design/icons";
 
 const icon = {
-  margin: "10px",
-  padding: "px",
-  color: "white",
-  fontsize: "xx-large",
+  margin: "25px",
+  padding: "5px",
+  color: "blue",
+  height: "90px",
+  width: "90px",
 };
 
 const Footer = () => {
   return (
     <div className='text-center footer'>
-      <div className='test'>
-        <h4>
-          <a href='https://github.com/G-carloo'>
-            <GithubFilled style={icon} />
-          </a>
-        </h4>
-        <h4>
-          <a href='https://codepen.io/G-carloo'>
-            <CodepenCircleOutlined style={icon} />
-          </a>
-        </h4>
-      </div>
+      <a href='https://github.com/G-carloo'>
+        <GithubFilled style={icon} />
+      </a>
+      <a href='https://codepen.io/G-carloo'>
+        <CodepenCircleOutlined style={icon} />
+      </a>
       <h4 className='main'>Ganief Carloo 2020</h4>
       <h4 className='heart'>
         <HeartFilled />

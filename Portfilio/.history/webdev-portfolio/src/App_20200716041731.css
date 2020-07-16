@@ -102,8 +102,8 @@ input {
   margin: 10px;
 }
 .lp {
-  background-attachment: "fixed";
   background-size: cover;
+  background-attachment: "fixed";
 }
 .work {
   display: inline-flex;

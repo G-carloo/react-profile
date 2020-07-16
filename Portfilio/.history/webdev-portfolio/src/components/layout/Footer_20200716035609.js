@@ -6,7 +6,7 @@ import {
 } from "@ant-design/icons";
 
 const icon = {
-  margin: "10px",
+  margin: "0px",
   padding: "px",
   color: "white",
   fontsize: "xx-large",
