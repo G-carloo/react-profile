@@ -16,8 +16,8 @@ const About = () => {
           A LITTLE BIT ABOUT ME
         </h2>
         <img src={Sun} alt='' style={imgStyle} />
-        <div>
-          <p className='ab'>
+        <div className='text-center'>
+          <p className='about'>
             <strong>
               Hey! My name is Ganief Carloo and I'm a web developer with a
               passion for back end development and design. Looking for new ways
@@ -26,7 +26,7 @@ const About = () => {
               out at school functions etc.
             </strong>
           </p>
-          <p className='ab'>
+          <p className='about'>
             <strong>
               When I'm not looking at a screen I enjoy keeping fit, learning a
               new skill, networking or connecting

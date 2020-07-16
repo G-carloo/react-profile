@@ -10,14 +10,12 @@ const imgStyle = {
 
 const About = () => {
   return (
-    <div>
+    <div className='sub'>
       <div>
-        <h2 id='About' className='text-center'>
-          A LITTLE BIT ABOUT ME
-        </h2>
+        <h2 id='About'>A LITTLE BIT ABOUT ME</h2>
         <img src={Sun} alt='' style={imgStyle} />
-        <div>
-          <p className='ab'>
+        <div className=''>
+          <p className=''>
             <strong>
               Hey! My name is Ganief Carloo and I'm a web developer with a
               passion for back end development and design. Looking for new ways
@@ -26,7 +24,7 @@ const About = () => {
               out at school functions etc.
             </strong>
           </p>
-          <p className='ab'>
+          <p className=''>
             <strong>
               When I'm not looking at a screen I enjoy keeping fit, learning a
               new skill, networking or connecting

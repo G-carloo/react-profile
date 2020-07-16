@@ -123,7 +123,7 @@ input {
   margin: 0px;
 }
 .s {
-  display: inherit;
+  display: initial;
   padding: 20px;
   text-align: initial;
 }

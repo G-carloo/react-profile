@@ -119,11 +119,9 @@ input {
 }
 .sub {
   display: inline-flex;
-  padding: 5px;
+  padding: 20px;
   margin: 0px;
 }
 .s {
-  display: inherit;
-  padding: 20px;
-  text-align: initial;
+  padding: 10px;
 }

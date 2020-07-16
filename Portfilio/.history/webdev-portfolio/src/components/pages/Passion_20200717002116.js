@@ -18,13 +18,13 @@ const Passion = () => {
             <i>Design</i>
           </strong>
         </h4>
-        <h4 className='s'>
+        <h4>
           <LineChartOutlined />
           <strong>
             <i>Problem Solving</i>
           </strong>
         </h4>
-        <h4 className='s'>
+        <h4>
           <BookOutlined />
           <strong>
             <i>Development</i>

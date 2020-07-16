@@ -120,10 +120,5 @@ input {
 .sub {
   display: inline-flex;
   padding: 5px;
-  margin: 0px;
-}
-.s {
-  display: inherit;
-  padding: 20px;
-  text-align: initial;
+  margin: auto;
 }
