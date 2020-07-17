@@ -2,11 +2,10 @@ import React from "react";
 import Sun from "./Sun.jpg";
 
 const imgStyle = {
-  width: "40vw",
+  width: "initial",
   height: "500px",
   padding: "30px",
   margin: "10px",
-  objectfit: "cover",
 };
 
 const About = () => {

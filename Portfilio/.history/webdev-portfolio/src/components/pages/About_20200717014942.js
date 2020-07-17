@@ -4,9 +4,8 @@ import Sun from "./Sun.jpg";
 const imgStyle = {
   width: "40vw",
   height: "500px",
-  padding: "30px",
+  padding: "80px",
   margin: "10px",
-  objectfit: "cover",
 };
 
 const About = () => {
@@ -16,19 +15,16 @@ const About = () => {
         <h2 id='About' className='text-center'>
           A LITTLE BIT ABOUT ME
         </h2>
-        <div className='about'>
-          <div className='ba'>
-            <img src={Sun} alt='' style={imgStyle} />
-          </div>
-          <div>
+        <div className='sub'>
+          <img src={Sun} alt='' style={imgStyle} />
+          <div className='about'>
             <p className='ab'>
               <strong>
                 Hey! My name is Ganief Carloo and I'm a web developer with a
                 passion for back end development and design. Looking for new
                 ways of being creative along with solving problems. I have some
                 experience in the work environment from volunteering and helping
-                out at school functions etc. I have also done some job shadowing
-                which is where I was introduced into front end development.
+                out at school functions etc.
               </strong>
             </p>
             <p className='ab'>

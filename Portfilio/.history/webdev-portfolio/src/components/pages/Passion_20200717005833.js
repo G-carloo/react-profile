@@ -12,7 +12,7 @@ const Passion = () => {
         My interests are
       </h2>
       <div className='sub'>
-        <h4 className='sub s1'>
+        <h4 className='sleft'>
           <LaptopOutlined />
           <strong>
             <i>Design</i>

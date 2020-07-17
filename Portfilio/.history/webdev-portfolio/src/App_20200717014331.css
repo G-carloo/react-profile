@@ -93,17 +93,10 @@ input {
 }
 .about {
   margin: 10px;
-  padding: 0px;
-  display: inline-flex;
+  padding: initial;
 }
 .ab {
-  margin: 30px;
-  padding: 40px;
-}
-.ba {
-  margin: 10px;
-  padding: 20px;
-  object-fit: cover;
+  margin: opx;
 }
 .footer {
   background: #333333;

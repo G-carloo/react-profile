@@ -92,18 +92,10 @@ input {
   color: red;
 }
 .about {
-  margin: 10px;
-  padding: 0px;
-  display: inline-flex;
+  margin: 40px;
 }
 .ab {
-  margin: 30px;
-  padding: 40px;
-}
-.ba {
-  margin: 10px;
-  padding: 20px;
-  object-fit: cover;
+  margin: auto;
 }
 .footer {
   background: #333333;
@@ -128,21 +120,19 @@ input {
 .sub {
   display: inline-flex;
   padding: 5px;
-  margin: 5px;
+  margin: 0px;
 }
-
+.s {
+  display: inherit;
+  padding: 20px;
+  text-align: initial;
+}
 .s1 {
   text-align: right;
-  padding: 20px;
-  text-align: inherit;
 }
 .s2 {
   text-align: center;
-  padding: 20px;
-  text-align: inherit;
 }
 .s3 {
   text-align: left;
-  padding: 20px;
-  text-align: inherit;
 }

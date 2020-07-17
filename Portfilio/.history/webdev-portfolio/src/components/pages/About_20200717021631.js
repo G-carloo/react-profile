@@ -6,7 +6,6 @@ const imgStyle = {
   height: "500px",
   padding: "30px",
   margin: "10px",
-  objectfit: "cover",
 };
 
 const About = () => {

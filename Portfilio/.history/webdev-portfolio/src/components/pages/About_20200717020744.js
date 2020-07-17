@@ -6,7 +6,6 @@ const imgStyle = {
   height: "500px",
   padding: "30px",
   margin: "10px",
-  objectfit: "cover",
 };
 
 const About = () => {
@@ -17,9 +16,9 @@ const About = () => {
           A LITTLE BIT ABOUT ME
         </h2>
         <div className='about'>
-          <div className='ba'>
+          <din>
             <img src={Sun} alt='' style={imgStyle} />
-          </div>
+          </din>
           <div>
             <p className='ab'>
               <strong>

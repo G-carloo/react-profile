@@ -98,12 +98,11 @@ input {
 }
 .ab {
   margin: 30px;
-  padding: 40px;
+  padding: 70px;
 }
 .ba {
   margin: 10px;
   padding: 20px;
-  object-fit: cover;
 }
 .footer {
   background: #333333;

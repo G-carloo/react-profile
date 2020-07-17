@@ -6,7 +6,6 @@ const imgStyle = {
   height: "500px",
   padding: "30px",
   margin: "10px",
-  objectfit: "cover",
 };
 
 const About = () => {
@@ -17,9 +16,7 @@ const About = () => {
           A LITTLE BIT ABOUT ME
         </h2>
         <div className='about'>
-          <div className='ba'>
-            <img src={Sun} alt='' style={imgStyle} />
-          </div>
+          <img src={Sun} alt='' style={imgStyle} />
           <div>
             <p className='ab'>
               <strong>
@@ -27,8 +24,7 @@ const About = () => {
                 passion for back end development and design. Looking for new
                 ways of being creative along with solving problems. I have some
                 experience in the work environment from volunteering and helping
-                out at school functions etc. I have also done some job shadowing
-                which is where I was introduced into front end development.
+                out at school functions etc.
               </strong>
             </p>
             <p className='ab'>
