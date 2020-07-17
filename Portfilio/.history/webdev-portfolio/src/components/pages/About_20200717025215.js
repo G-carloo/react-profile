@@ -9,7 +9,7 @@ const About = () => {
           A LITTLE BIT ABOUT ME
         </h2>
         <div className='about'>
-          <img src={Sun} alt='' className='ba' />
+          <img src={Sun} alt='' style={imgStyle} className='ba' />
 
           <div>
             <p className='ab'>

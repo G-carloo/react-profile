@@ -1,6 +1,14 @@
 import React from "react";
 import Sun from "./Sun.jpg";
 
+const imgStyle = {
+  width: "40vw",
+  height: "500px",
+  padding: "30px",
+  margin: "10px",
+  objectfit: "inherit",
+};
+
 const About = () => {
   return (
     <div>
@@ -9,8 +17,9 @@ const About = () => {
           A LITTLE BIT ABOUT ME
         </h2>
         <div className='about'>
-          <img src={Sun} alt='' className='ba' />
-
+          <div className='ba'>
+            <img src={Sun} alt='' style={imgStyle} />
+          </div>
           <div>
             <p className='ab'>
               <strong>
