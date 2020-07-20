@@ -7,7 +7,7 @@ const User = require("../models/User");
 const Contact = require("../models/Contacts");
 const Message = require("../models/Message");
 
-// GET request messages,  Gets all messages, end to end access
+// GET request messages,  Gets all messages, Private
 router.get("/", auth, async (req, res) => {
   try {
     const messages = await Message.find({ message: req.message }).sort({
@@ -20,7 +20,7 @@ router.get("/", auth, async (req, res) => {
   }
 });
 
-// POST request messages, sends messages, end to end access
+// POST request messages, sends messages, Private
 router.post(
   "/",
   check("message", "Message is required").not().isEmpty(),
@@ -35,6 +35,7 @@ router.post(
 
     try {
       const newMessage = new Message({
+        message,
         message: req.message,
       });
 
@@ -48,7 +49,7 @@ router.post(
   }
 );
 
-// PUT request messages, updating messages, end to end access
+// PUT request messages, updating messages, Private access
 router.put("/:id", async (req, res) => {
   const { type } = req.body;
 
@@ -79,7 +80,7 @@ router.put("/:id", async (req, res) => {
   }
 });
 
-// DELETE request messages/:id,  Delete message, end to end access
+// DELETE request messages/:id,  Delete message, Private access
 router.delete("/:id", async (req, res) => {
   try {
     let message = await Message.findById(req.params.id);

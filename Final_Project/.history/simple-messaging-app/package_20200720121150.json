@@ -11,7 +11,10 @@
     "express": "^4.17.1",
     "express-validator": "^6.6.0",
     "jsonwebtoken": "^8.5.1",
-    "mongoose": "^5.9.24"
+    "mongoose": "^5.9.24",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "3.4.1"
   },
   "scripts": {
     "start": "node server.js",
