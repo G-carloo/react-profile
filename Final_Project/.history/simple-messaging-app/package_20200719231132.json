@@ -19,9 +19,9 @@
   "scripts": {
     "start": "node server.js",
     "server": "nodemon server.js",
-    "front": "npm start --prefix front",
-    "frontinstall": "npm install --prefix front",
-    "dev": "concurrently \"npm run server\" \"npm run front\"",
+    "client": "npm start --prefix client",
+    "clientinstall": "npm install --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

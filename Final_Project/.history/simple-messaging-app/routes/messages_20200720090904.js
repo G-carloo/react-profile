@@ -19,7 +19,7 @@ router.get("/", auth, async (req, res) => {
       console.error(err.message);
       res.status(500).send("Server Error");
     }
-});
+  });
 
 // POST api/messages, sends messages, Private
 router.post(
@@ -46,7 +46,7 @@ router.post(
         res.status(500).send("Server Error");
       }
     }
-);
+  );
 
 // PUT api/messages, updating messages, Private
 router.put("/:id", async (req, res) => {
@@ -77,7 +77,7 @@ router.put("/:id", async (req, res) => {
       console.error(err.message);
       res.status(500).send("Server Error");
     }
-});
+  });
 
 // DELETE messages/:id,  Delete message, Private
 router.delete("/:id", async (req, res) => {
