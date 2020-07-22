@@ -1,0 +1,39 @@
+.navbar {
+  justify-content: space-between;
+  width: 100%;
+  opacity: 0.9;
+  background-color: grey;
+}
+.h1 {
+  margin: inherit;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar a {
+  color: grey;
+  padding: 0.45rem;
+  margin: 0 0.25rem;
+}
+
+.navbar a:hover {
+  color: var(--light-color);
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.sp {
+  justify-content: right;
+  justify-content: space-evenly;
+  justify-self: right;
+}
+.ul {
+  color: black;
+  margin: inherit;
+  justify-content: space-evenly;
+}

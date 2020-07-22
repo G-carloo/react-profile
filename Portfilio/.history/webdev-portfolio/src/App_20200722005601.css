@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+/* Global Styles */
+:root {
+  --dark-color: #333333;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  background-color: #fff;
+  color: #333;
+}
+
+a:hover {
+  color: #666;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Text Styles*/
+.text-center {
+  text-align: center;
+  padding: 90px;
+}
+
+.text-right {
+  text-align: right;
+  padding: 30px;
+}
+
+.text-left {
+  text-align: left;
+  padding: 50px;
+}
+
+/* button styles */
+.btn-dark,
+.bg-dark,
+.badge-dark,
+.alert-dark {
+  background: var(--dark-color);
+  color: beige;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+/* Forms */
+input {
+  margin: 1rem 0;
+}
+
+/* Navbar */
+.navbar {
+  justify-content: space-between;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar a {
+  color: #fff;
+  padding: 0.45rem;
+  margin: 0 0.25rem;
+}
+
+.navbar a:hover {
+  color: var(--light-color);
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.ul {
+  color: grey;
+  margin: inherit;
+}
+.main {
+  color: beige;
+}
+.heart {
+  color: red;
+}
+.about {
+  margin: 10px;
+  padding: 0px;
+  display: inline-flex;
+}
+.ab {
+  margin: 30px;
+  padding: 40px;
+}
+.ba {
+  width: 40vw;
+  height: 500px;
+  padding: 30px;
+  margin: 10px;
+  object-fit: cover;
+}
+.footer {
+  background: #333333;
+}
+.flex {
+  padding: 10px;
+  margin: 10px;
+}
+.lp {
+  background-attachment: "fixed";
+  background-size: cover;
+}
+.work {
+  display: inline-flex;
+  columns: 20px;
+}
+.test {
+  display: inline-flex;
+  flex-flow: row;
+  flex-direction: row;
+}
+.sub {
+  display: inline-flex;
+  padding: 5px;
+  margin: 5px;
+}
+
+.s1 {
+  text-align: right;
+  padding: 20px;
+  text-align: inherit;
+}
+.s2 {
+  text-align: center;
+  padding: 20px;
+  text-align: inherit;
+}
+.s3 {
+  text-align: left;
+  padding: 20px;
+  text-align: inherit;
+}

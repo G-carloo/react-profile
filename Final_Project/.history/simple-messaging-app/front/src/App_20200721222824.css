@@ -1,0 +1,7 @@
+.navbar {
+  background-color: green;
+  text-decoration: white;
+}
+.navbar.active {
+  /* background-color: green; */
+}
