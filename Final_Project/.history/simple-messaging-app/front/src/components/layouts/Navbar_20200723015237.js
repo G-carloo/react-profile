@@ -1,10 +1,14 @@
 import React from "react";
+// import PropTypes from "prop-types";
 import {
   MoreOutlined,
   CameraOutlined,
   PaperClipOutlined,
   PhoneOutlined,
 } from "@ant-design/icons";
+import Camera from "./Camera";
+import Moreinfo from "../pages/More";
+// import { Moreinfo } from "../pages/More";
 
 const sp = {
   display: "inline-flex",

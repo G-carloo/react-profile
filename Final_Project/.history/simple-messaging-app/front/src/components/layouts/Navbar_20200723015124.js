@@ -1,10 +1,14 @@
 import React from "react";
+// import PropTypes from "prop-types";
 import {
   MoreOutlined,
   CameraOutlined,
   PaperClipOutlined,
   PhoneOutlined,
 } from "@ant-design/icons";
+import Camera from "./Camera";
+import Moreinfo from "../pages/More";
+// import { Moreinfo } from "../pages/More";
 
 const sp = {
   display: "inline-flex",
@@ -55,16 +59,14 @@ const Navbar = ({ icon, title }) => {
       <ul className='ul'>
         <h2>
           <li>
-            <a href='#Cam'>
-              <CameraOutlined onClick={Cam} href='#Cam' />
-            </a>
+            <a href='#Cam' />
+            <CameraOutlined onClick={Cam} href='#Cam' />
           </li>
         </h2>
         <h2>
           <li>
-            <a href='#Chats'>
-              <PaperClipOutlined onClick={Chats} href='#Messages' />
-            </a>
+            <a href='#Chats' />
+            <PaperClipOutlined onClick={Chats} href='#Messages' />
           </li>
         </h2>
         <h2>

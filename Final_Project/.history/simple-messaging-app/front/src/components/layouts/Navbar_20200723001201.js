@@ -1,10 +1,13 @@
 import React from "react";
+// import PropTypes from "prop-types";
 import {
   MoreOutlined,
   CameraOutlined,
   PaperClipOutlined,
   PhoneOutlined,
 } from "@ant-design/icons";
+import Camera from "./Camera";
+// import { Moreinfo } from "../pages/More";
 
 const sp = {
   display: "inline-flex",
@@ -17,16 +20,20 @@ const sp = {
 };
 
 const More = () => {
-  return <a href='#modal' />;
+  return;
 };
 const Cam = () => {
-  return <a href='#Cam' />;
+  return (
+    <div>
+      <Camera />
+    </div>
+  );
 };
 const Chats = () => {
-  return <a href='#Chats' />;
+  return <a href='#' />;
 };
 const Calls = () => {
-  return <a href='#Calls' />;
+  return <a href='#' />;
 };
 
 const Navbar = ({ icon, title }) => {
@@ -55,16 +62,12 @@ const Navbar = ({ icon, title }) => {
       <ul className='ul'>
         <h2>
           <li>
-            <a href='#Cam'>
-              <CameraOutlined onClick={Cam} href='#Cam' />
-            </a>
+            <CameraOutlined onClick={Cam} href='#Cam' />
           </li>
         </h2>
         <h2>
           <li>
-            <a href='#Chats'>
-              <PaperClipOutlined onClick={Chats} href='#Messages' />
-            </a>
+            <PaperClipOutlined onClick={Chats} href='#Messages' />
           </li>
         </h2>
         <h2>

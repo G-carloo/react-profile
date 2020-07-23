@@ -25,9 +25,10 @@
 }
 
 .sticky {
-  position: sticky;
+  position: fixed;
   top: 0;
   width: 100%;
+  position: relative;
 }
 .sp {
   display: inline-flex;
@@ -45,7 +46,6 @@
   display: inline-flex;
 }
 .cm {
-  background-size: cover;
   text-align: center;
   background-image: url("https://www.thewholeworldisaplayground.com/wp-content/uploads/2018/01/Cape-Town-Best-Photo-Locations-14.webp");
   height: 100vh;

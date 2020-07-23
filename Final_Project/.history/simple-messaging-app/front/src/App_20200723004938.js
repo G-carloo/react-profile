@@ -1,9 +1,8 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Navbar from "./components/layouts/Navbar";
 import "./App.css";
 import Camera from "./components/layouts/Camera";
-import Calls from "./components/layouts/Calls";
+import Calls from "./components/layouts/Messages";
 import About from "./components/pages/About";
 import Search from "./components/pages/More";
 import Moreinfo from "./components/pages/More";
@@ -15,7 +14,7 @@ const App = () => {
       <Navbar />
       <Camera />
       <Messages />
-      <Calls />
+      {/* <Calls /> */}
       {/* <Search /> */}
       {/* <Moreinfo href='#modals' /> */}
       {/* <About /> */}

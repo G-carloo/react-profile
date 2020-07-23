@@ -3,7 +3,7 @@ import React from "react";
 const Calls = () => {
   return (
     <div id='calls' className='cl'>
-      <h3>This is normal</h3>
+      <h2>This is calls</h2>
     </div>
   );
 };

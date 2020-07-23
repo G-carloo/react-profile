@@ -1,10 +1,9 @@
 .navbar {
-  justify-content: space-evenly;
+  justify-content: space-between;
   width: 100%;
   opacity: 1;
   background-color: grey;
   position: relative;
-  overflow-y: overlay;
 }
 .h1 {
   margin: inherit;
@@ -25,9 +24,10 @@
 }
 
 .sticky {
-  position: sticky;
+  position: fixed;
   top: 0;
   width: 100%;
+  position: relative;
 }
 .sp {
   display: inline-flex;
@@ -43,16 +43,4 @@
   margin: inherit;
   justify-content: space-evenly;
   display: inline-flex;
-}
-.cm {
-  background-size: cover;
-  text-align: center;
-  background-image: url("https://www.thewholeworldisaplayground.com/wp-content/uploads/2018/01/Cape-Town-Best-Photo-Locations-14.webp");
-  height: 100vh;
-}
-.ch {
-  text-align: center;
-}
-.cl {
-  text-align: center;
 }

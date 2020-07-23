@@ -16,19 +16,6 @@ const sp = {
   position: "relative",
 };
 
-const More = () => {
-  return <a href='#modal' />;
-};
-const Cam = () => {
-  return <a href='#Cam' />;
-};
-const Chats = () => {
-  return <a href='#Chats' />;
-};
-const Calls = () => {
-  return <a href='#Calls' />;
-};
-
 const Navbar = ({ icon, title }) => {
   return (
     <div className='navbar sticky'>
@@ -47,7 +34,7 @@ const Navbar = ({ icon, title }) => {
               </button>
             </form>
             <h2>
-              <MoreOutlined onClick={More} />
+              <MoreOutlined href='#modal' />
             </h2>
           </ul>
         </span>
@@ -55,21 +42,17 @@ const Navbar = ({ icon, title }) => {
       <ul className='ul'>
         <h2>
           <li>
-            <a href='#Cam'>
-              <CameraOutlined onClick={Cam} href='#Cam' />
-            </a>
+            <CameraOutlined href='#Cam' />
           </li>
         </h2>
         <h2>
           <li>
-            <a href='#Chats'>
-              <PaperClipOutlined onClick={Chats} href='#Messages' />
-            </a>
+            <PaperClipOutlined href='#Chats' />
           </li>
         </h2>
         <h2>
           <li>
-            <PhoneOutlined onClick={Calls} href='#Calls' />
+            <PhoneOutlined href='#Calls' />
           </li>
         </h2>
       </ul>

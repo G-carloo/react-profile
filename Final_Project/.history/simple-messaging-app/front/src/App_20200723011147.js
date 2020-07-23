@@ -1,5 +1,4 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Navbar from "./components/layouts/Navbar";
 import "./App.css";
 import Camera from "./components/layouts/Camera";
@@ -13,9 +12,9 @@ const App = () => {
   return (
     <div className='App'>
       <Navbar />
-      <Camera />
-      <Messages />
-      <Calls />
+      {/* <Camera /> */}
+      {/* <Messages /> */}
+      {/* <Calls /> */}
       {/* <Search /> */}
       {/* <Moreinfo href='#modals' /> */}
       {/* <About /> */}

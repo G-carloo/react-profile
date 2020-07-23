@@ -6,7 +6,7 @@ const Moreinfo = () => {
     <div id='modal'>
       <modal.dialog>
         <modal.header closeButton>
-          <modal.title>Modal title</modal.title>
+          <Modal.Title>Modal title</Modal.Title>
         </modal.header>
 
         <modal.body>
