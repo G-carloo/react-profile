@@ -21,4 +21,9 @@ const Moreinfo = () => {
     </div>
   );
 };
+
+$(document).ready(function () {
+  $("modal").modal();
+});
+
 export default Moreinfo;

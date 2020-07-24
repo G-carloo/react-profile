@@ -1,0 +1,29 @@
+import React from "react";
+import modal from "react-modal";
+
+const Moreinfo = () => {
+  return (
+    <div id='modal'>
+      <Modal.Dialog>
+        <Modal.Header closeButton>
+          <Modal.Title>Modal title</Modal.Title>
+        </Modal.Header>
+
+        <Modal.Body>
+          <p>Modal body text goes here.</p>
+        </Modal.Body>
+
+        <Modal.Footer>
+          <Button variant='secondary'>Close</Button>
+          <Button variant='primary'>Save changes</Button>
+        </Modal.Footer>
+      </Modal.Dialog>
+    </div>
+  );
+};
+
+// document.ready(function () {
+//   "modal".modal();
+// });
+
+export default Moreinfo;
