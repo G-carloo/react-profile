@@ -4,6 +4,8 @@ const backgroundStyle = {
   backgroundImage: `url(${"https://cdn.pixabay.com/photo/2016/10/20/18/35/sunrise-1756274__340.jpg"})`,
   height: "100vh",
   width: "100%",
+  backgroundsize: "cover",
+  backgroundattachment: "fixed",
 };
 
 const Landingpage = () => {
@@ -11,7 +13,7 @@ const Landingpage = () => {
     <div id='Top'>
       <div style={backgroundStyle} className='text-center lp'>
         <h1 className='main'>
-          HI, I'm Ganief Carloo
+          HI, I'm Ganief
           <h6>Web developer & UX Enthusiast</h6>
         </h1>
       </div>

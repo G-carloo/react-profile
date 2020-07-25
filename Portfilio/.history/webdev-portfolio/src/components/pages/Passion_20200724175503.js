@@ -33,7 +33,7 @@ const Passion = () => {
       </div>
 
       <div className='work'>
-        <p className='s1'>
+        <p className='sub s1'>
           <strong>
             Design is a big part of any product, software or hardware. It
             encompasses the functionality as well as the user experience. I
@@ -42,7 +42,7 @@ const Passion = () => {
           </strong>
         </p>
 
-        <p className='s2'>
+        <p className='sub s2'>
           <strong>
             Problem Solving is part of who I am. Growing up I loved to solving
             problems, it brought me a sense of accommplishment. The development
@@ -50,7 +50,7 @@ const Passion = () => {
           </strong>
         </p>
 
-        <p className='s3'>
+        <p className='sub s3'>
           <strong>
             I love learning new things and with that many processes and
             developments. I find development interesting mostly because

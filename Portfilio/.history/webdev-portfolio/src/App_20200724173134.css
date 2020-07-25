@@ -57,7 +57,7 @@ input {
 
 /* Navbar */
 .navbar {
-  justify-content: space-evenly;
+  justify-content: space-between;
   width: 100%;
   opacity: 0.9;
 }
@@ -81,32 +81,26 @@ input {
   top: 0;
   width: 100%;
 }
-
 .ul {
   color: grey;
   margin: inherit;
 }
-
 .main {
   color: beige;
 }
-
 .heart {
   color: red;
 }
-
 .about {
   margin: 10px;
   padding: 0px;
   display: inline-flex;
 }
-
 .ab {
   margin: 30px;
   padding: 40px;
   text-align: center;
 }
-
 .ba {
   width: 30vw;
   height: 500px;
@@ -114,84 +108,49 @@ input {
   margin: 0px;
   object-fit: cover;
 }
-
 .ex {
   background-size: cover;
-  background-attachment: fixed;
 }
 
 .footer {
   background: #333333;
 }
-
 .flex {
   padding: 10px;
   margin: 10px;
 }
-
 .lp {
+  background-attachment: "fixed";
   background-size: cover;
-  background-attachment: fixed;
 }
-
 .work {
   display: inline-flex;
   columns: 20px;
 }
-
 .test {
   display: inline-flex;
   flex-flow: row;
   flex-direction: row;
 }
-
 .sub {
   display: inline-flex;
   padding: 5px;
   margin: 5px;
+  justify-content: space-evenly;
 }
 
 .s1 {
-  text-align: left;
+  text-align: right;
   padding: 20px;
-  float: left;
+  text-align: inherit;
 }
-
 .s2 {
   text-align: center;
   padding: 20px;
+  text-align: inherit;
 }
-
 .s3 {
-  text-align: right;
+  text-align: left;
   padding: 20px;
-  float: right;
-}
-
-.ccp {
-  text-align: center;
-  padding: 10px;
-}
-
-.ccpi {
-  text-align: center;
-}
-
-.ccn {
-  text-align: center;
-}
-
-.ccni {
-  text-align: center;
-}
-
-.cs {
-  text-align: center;
-}
-
-.ci {
-  text-align: center;
-  padding: 200px;
-  margin: auto;
-  inline-size: auto;
+  text-align: inherit;
 }

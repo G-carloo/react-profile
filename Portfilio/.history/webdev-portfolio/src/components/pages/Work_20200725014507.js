@@ -7,13 +7,12 @@ import Jason from "./Jason.jpg";
 const test = {
   margin: "100",
   padding: "50",
-  textalign: "center",
 };
 
 const Work = () => {
   return (
     <div>
-      <h2 id='Work' style={test} className='text-center'>
+      <h2 id='Work' style={test}>
         Testimonials
       </h2>
       <div id='carouselIndicators' class='cs' data-ride='carousel'>

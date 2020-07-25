@@ -57,7 +57,7 @@ input {
 
 /* Navbar */
 .navbar {
-  justify-content: space-evenly;
+  justify-content: space-between;
   width: 100%;
   opacity: 0.9;
 }
@@ -117,7 +117,6 @@ input {
 
 .ex {
   background-size: cover;
-  background-attachment: fixed;
 }
 
 .footer {
@@ -130,8 +129,8 @@ input {
 }
 
 .lp {
+  background-attachment: "fixed";
   background-size: cover;
-  background-attachment: fixed;
 }
 
 .work {
@@ -166,32 +165,4 @@ input {
   text-align: right;
   padding: 20px;
   float: right;
-}
-
-.ccp {
-  text-align: center;
-  padding: 10px;
-}
-
-.ccpi {
-  text-align: center;
-}
-
-.ccn {
-  text-align: center;
-}
-
-.ccni {
-  text-align: center;
-}
-
-.cs {
-  text-align: center;
-}
-
-.ci {
-  text-align: center;
-  padding: 200px;
-  margin: auto;
-  inline-size: auto;
 }

@@ -11,6 +11,8 @@ const backgroundStyle = {
   backgroundImage: `url(${"https://cdn.pixabay.com/photo/2016/11/21/12/39/cosmos-1845140__340.jpg"})`,
   height: "40vh",
   width: "100%",
+  backgroundsize: "cover",
+  backgroundattachment: "fixed",
 };
 
 const html1 = {

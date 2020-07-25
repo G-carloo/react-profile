@@ -13,10 +13,31 @@ const test = {
 const Work = () => {
   return (
     <div>
-      <h2 id='Work' style={test} className='text-center'>
+      <h2 id='Work' style={test}>
         Testimonials
       </h2>
       <div id='carouselIndicators' class='cs' data-ride='carousel'>
+        <ol class='ci'>
+          <li
+            data-target='#carouselIndicators'
+            data-slide-to='0'
+            class='active'
+          >
+            {" "}
+          </li>
+          <li data-target='#ci' data-slide-to='1'>
+            {" "}
+          </li>
+          <li data-target='#ci' data-slide-to='2'>
+            {" "}
+          </li>
+          <li data-target='#ci' data-slide-to='3'>
+            {" "}
+          </li>
+          <li data-target='#ci' data-slide-to='4'>
+            {" "}
+          </li>
+        </ol>
         <div class='ci'>
           <div class='ci active'>
             <img
@@ -30,7 +51,7 @@ const Work = () => {
           <div class='ci'>
             <img
               class='d-block w-100'
-              src='...'
+              src={}
               alt=" Ganief's hard work and determination to work in an industry he
                 had no prior knowledge in always amazes me. He's eagerness to
                 learn and help others is what inspires me the most! - Josh

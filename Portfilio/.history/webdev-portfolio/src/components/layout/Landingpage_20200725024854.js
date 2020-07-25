@@ -11,7 +11,7 @@ const Landingpage = () => {
     <div id='Top'>
       <div style={backgroundStyle} className='text-center lp'>
         <h1 className='main'>
-          HI, I'm Ganief Carloo
+          HI, I'm Ganief
           <h6>Web developer & UX Enthusiast</h6>
         </h1>
       </div>

@@ -13,7 +13,7 @@ const test = {
 const Work = () => {
   return (
     <div>
-      <h2 id='Work' style={test} className='text-center'>
+      <h2 id='Work' style={test}>
         Testimonials
       </h2>
       <div id='carouselIndicators' class='cs' data-ride='carousel'>

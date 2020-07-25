@@ -12,28 +12,22 @@ const Passion = () => {
         My interests are
       </h2>
       <div className='sub'>
-        <h4 className='s1'>
+        <h4 className='sub s1'>
           <LaptopOutlined />
           <strong>
             <i>Design</i>
           </strong>
         </h4>
-        <h4 className='s2'>
+        <h4 className='sub s2'>
           <LineChartOutlined />
           <strong>
             <i>Problem Solving</i>
           </strong>
         </h4>
-        <h4 className='s3'>
-          <BookOutlined />
-          <strong>
-            <i>Development</i>
-          </strong>
-        </h4>
       </div>
 
       <div className='work'>
-        <p className='s1'>
+        <p className='sub s1'>
           <strong>
             Design is a big part of any product, software or hardware. It
             encompasses the functionality as well as the user experience. I
@@ -42,15 +36,21 @@ const Passion = () => {
           </strong>
         </p>
 
-        <p className='s2'>
+        <p className='sub s2'>
           <strong>
             Problem Solving is part of who I am. Growing up I loved to solving
             problems, it brought me a sense of accommplishment. The development
             world has many problems and I hope to help solve them.
           </strong>
         </p>
+        <h4 className='sub s3'>
+          <BookOutlined />
+          <strong>
+            <i>Development</i>
+          </strong>
+        </h4>
 
-        <p className='s3'>
+        <p className='sub s3'>
           <strong>
             I love learning new things and with that many processes and
             developments. I find development interesting mostly because

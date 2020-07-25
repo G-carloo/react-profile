@@ -1,8 +1,12 @@
 import React from "react";
 
+const navbar = {
+  backgroundcolor: "blue",
+};
+
 const Navbar = () => {
   return (
-    <nav className='navbar bg-dark sticky'>
+    <nav className='navbar navbar-expand-sm  sticky' style={navbar}>
       <h1>
         <i />
         <pr>Ganief Carloo</pr>
@@ -34,9 +38,6 @@ const Navbar = () => {
           </a>
         </li>
       </ul>
-      {/* <a href='javascript:void(0);' class='icon' onclick='myFunction()'>
-        <i class='fa fa-bars'></i>
-      </a> */}
     </nav>
   );
 };

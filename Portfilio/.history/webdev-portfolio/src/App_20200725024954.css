@@ -131,7 +131,7 @@ input {
 
 .lp {
   background-size: cover;
-  background-attachment: fixed;
+  background-attachment: "fixed";
 }
 
 .work {
@@ -170,7 +170,6 @@ input {
 
 .ccp {
   text-align: center;
-  padding: 10px;
 }
 
 .ccpi {
@@ -191,7 +190,4 @@ input {
 
 .ci {
   text-align: center;
-  padding: 200px;
-  margin: auto;
-  inline-size: auto;
 }

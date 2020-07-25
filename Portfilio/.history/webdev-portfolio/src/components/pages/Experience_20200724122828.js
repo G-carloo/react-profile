@@ -8,9 +8,10 @@ import mysql from "./mysql.jpg";
 import nodejs from "./nodejs.jpg";
 
 const backgroundStyle = {
-  backgroundImage: `url(${"https://cdn.pixabay.com/photo/2016/11/21/12/39/cosmos-1845140__340.jpg"})`,
+  backgroundImage: `url(${"https://cdn.pixabay.com/photo/2017/09/14/22/42/milky-way-2750627__340.jpg"})`,
   height: "40vh",
   width: "100%",
+  backgroundsize: "cover",
 };
 
 const html1 = {
@@ -50,6 +51,7 @@ const mongodb1 = {
 const btnStyles = {
   margin: "100px",
   backgrounfcolor: "black",
+  backgroundsize: "cover",
 };
 
 const Experience = () => {
@@ -72,7 +74,7 @@ const Experience = () => {
           <img src={mysql} alt='' style={mysql1} />
         </div>
         <span>
-          <div style={backgroundStyle} className='ex'>
+          <div style={backgroundStyle}>
             <button style={btnStyles}>
               <strong>
                 <h3>
