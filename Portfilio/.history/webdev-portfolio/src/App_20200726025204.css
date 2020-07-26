@@ -174,18 +174,3 @@ input {
   height: 120vh;
   overflow: hidden;
 }
-
-.carousel-indicators {
-  margin: 0px;
-  height: 0px;
-}
-
-.carousel-indicators ol {
-  width: 100%;
-}
-
-.carousel-indicators li {
-  height: 3px !important;
-  border-radius: 0px !important;
-  width: 25%;
-}

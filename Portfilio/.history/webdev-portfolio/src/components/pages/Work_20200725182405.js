@@ -6,13 +6,8 @@ import Philani from "./Philani.jpg";
 import Jason from "./Jason.jpg";
 
 const Wandrag = {
-  position: "absolute",
-  top: "50%",
-  left: "50%",
-  transform: "translate(-50%, -50%)",
-  minwidth: "100%",
-  height: "40rem",
-  margin: "0 auto",
+  padding: "250px",
+  margin: "50px",
 };
 
 const Isithembiso = {
@@ -33,11 +28,11 @@ const Work = () => {
   return (
     <div
       id='carouselExampleIndicators'
-      className='carousel slide slides'
+      class='carousel slide slides'
       data-ride='carousel'
     >
-      <ol className='carousel-indicators'>
-        <li data-target='#Jason' data-slide-to='0' className='active'>
+      <ol class='carousel-indicators'>
+        <li data-target='#Jason' data-slide-to='0' class='active'>
           {" "}
         </li>
         <li data-target='#carouselExampleIndicators' data-slide-to='1'>
@@ -53,35 +48,35 @@ const Work = () => {
           {" "}
         </li>
       </ol>
-      <div className='carousel-inner'>
-        <div className='carousel-item active'>
-          <img className='d-block w-100' src={Jason} alt='' style={Wandrag} />
+      <div class='carousel-inner'>
+        <div class='carousel-item active'>
+          <img class='d-block w-100' src={Jason} alt='' style={Wandrag} />
         </div>
-        <div className='carousel-item'>
+        <div class='carousel-item'>
           <img
-            className='d-block w-100'
+            class='d-block w-100'
             src={Philani}
             alt='Second slide'
             style={Isithembiso}
           />
         </div>
-        <div className='carousel-item'>
+        <div class='carousel-item'>
           <img
-            className='d-block w-100'
+            class='d-block w-100'
             src={Junaid}
             alt='Third slide'
             style={Salie}
           />
         </div>
-        <div className='carousel-item'>
+        <div class='carousel-item'>
           <img
-            className='d-block w-100'
+            class='d-block w-100'
             src={Michael}
             alt='Fourth slide'
             style={Bruwer}
           />
         </div>
-        <div className='carousel-item'>
+        <div class='carousel-item'>
           <img
             class='d-block w-100'
             src='...'
@@ -91,26 +86,26 @@ const Work = () => {
         </div>
       </div>
       <a
-        className='carousel-control-prev'
+        class='carousel-control-prev'
         href='#carouselExampleIndicators'
         role='button'
         data-slide='prev'
       >
-        <span className='carousel-control-prev-icon' aria-hidden='false'>
+        <span class='carousel-control-prev-icon' aria-hidden='false'>
           {" "}
         </span>
-        <span className='sr-only'>Previous </span>
+        <span class='sr-only'>Previous </span>
       </a>
       <a
-        className='carousel-control-next'
+        class='carousel-control-next'
         href='#carouselExampleIndicators'
         role='button'
         data-slide='next'
       >
-        <span className='carousel-control-next-icon' aria-hidden='false'>
+        <span class='carousel-control-next-icon' aria-hidden='false'>
           {" "}
         </span>
-        <span className='sr-only'>Next </span>
+        <span class='sr-only'>Next </span>
       </a>
     </div>
   );

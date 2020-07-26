@@ -132,8 +132,6 @@ input {
 .lp {
   background-size: cover;
   background-attachment: fixed;
-  text-align: center;
-  padding: 150px;
 }
 
 .work {
@@ -148,15 +146,15 @@ input {
 }
 
 .sub {
-  display: flex;
+  display: inline-flex;
   padding: 5px;
   margin: 5px;
-  justify-content: space-evenly;
 }
 
 .s1 {
   text-align: left;
   padding: 20px;
+  float: left;
 }
 
 .s2 {
@@ -167,25 +165,13 @@ input {
 .s3 {
   text-align: right;
   padding: 20px;
+  float: right;
 }
 
 .slides {
   background-color: black;
-  height: 120vh;
-  overflow: hidden;
 }
 
 .carousel-indicators {
-  margin: 0px;
-  height: 0px;
-}
-
-.carousel-indicators ol {
-  width: 100%;
-}
-
-.carousel-indicators li {
-  height: 3px !important;
-  border-radius: 0px !important;
-  width: 25%;
+  background-color: black;
 }
