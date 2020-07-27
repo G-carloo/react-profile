@@ -1,0 +1,221 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+/* Small (sm) */
+@media (min-width: 640px) {
+  /* ... */
+}
+
+/* Medium (md) */
+@media (min-width: 768px) {
+  /* ... */
+}
+
+/* Large (lg) */
+@media (min-width: 1024px) {
+  /* ... */
+}
+
+/* Extra Large (xl) */
+@media (min-width: 1280px) {
+  /* ... */
+}
+
+/* Global Styles */
+:root {
+  --dark-color: #333333;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  background-color: #fff;
+  color: #333;
+}
+
+a:hover {
+  color: #666;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Text Styles*/
+.text-center {
+  text-align: center;
+  padding: 90px;
+}
+
+.text-right {
+  text-align: right;
+  padding: 30px;
+}
+
+.text-left {
+  text-align: left;
+  padding: 50px;
+}
+
+/* button styles */
+.btn-dark,
+.bg-dark,
+.badge-dark,
+.alert-dark {
+  background: var(--dark-color);
+  color: beige;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+/* Forms */
+input {
+  margin: 1rem 0;
+}
+
+/* Navbar */
+.navbar {
+  justify-content: space-evenly;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar a {
+  color: #fff;
+  padding: 0.45rem;
+  margin: 0 0.25rem;
+}
+
+.navbar a:hover {
+  color: var(--light-color);
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.ul {
+  color: grey;
+  margin: inherit;
+}
+
+.main {
+  color: beige;
+}
+
+.heart {
+  color: red;
+}
+
+.about {
+  margin: 10px;
+  padding: 0px;
+  display: inline-flex;
+}
+
+.ab {
+  margin: 30px;
+  padding: 40px;
+  text-align: center;
+}
+
+.ba {
+  width: 30vw;
+  height: 500px;
+  padding: 60px;
+  margin: 0px;
+  object-fit: cover;
+}
+
+.ex {
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.footer {
+  background: #333333;
+}
+
+.flex {
+  padding: 10px;
+  margin: 10px;
+}
+
+.lp {
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+  padding: 150px;
+}
+
+.work {
+  display: inline-flex;
+  columns: 20px;
+}
+
+.test {
+  display: inline-flex;
+  flex-flow: row;
+  flex-direction: row;
+}
+
+.sub {
+  display: flex;
+  padding: 5px;
+  margin: 5px;
+  justify-content: space-evenly;
+}
+
+.s1 {
+  text-align: left;
+  padding: 20px;
+}
+
+.s2 {
+  text-align: center;
+  padding: 20px;
+}
+
+.s3 {
+  text-align: right;
+  padding: 20px;
+}
+
+.slides {
+  background-color: black;
+  height: 90vh;
+  overflow: hidden;
+}
+
+.carousel-indicators {
+  margin: 0px;
+  height: 0px;
+}
+
+.carousel-indicators ol {
+  width: 100%;
+}
+
+.carousel-indicators li {
+  height: 3px !important;
+  border-radius: 0px !important;
+  width: 100%;
+}
+
+.carousel-item {
+  width: 100%;
+  text-align: center;
+  text-decoration: blue;
+}
+
+.b {
+  text-decoration: blue;
+}
