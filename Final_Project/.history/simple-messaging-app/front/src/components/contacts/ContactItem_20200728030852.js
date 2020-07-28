@@ -1,0 +1,45 @@
+import React from "react";
+import PropTypes from "prop-types";
+
+const ContactItem = ({ contact }) => {
+  const { id, name, phone, type } = contact;
+
+  return (
+    <div className='Ci'>
+      <h3>{name}</h3>
+      <h4>
+        <span
+          className={
+            "badge" +
+            (type === "professional" ? "badge-success" : "badge-primary")
+          }
+        >
+          {type.charAt(0).toUpperCase() + type.slice(1)}
+        </span>
+      </h4>
+      <ul>
+        {phone && (
+          <p>
+            <i className='fas fa-user' />
+            {phone}
+          </p>
+        )}
+        {id && (
+          <p>
+            <i className='fas fa-id' />
+            {id}
+          </p>
+        )}
+      </ul>
+      <p>
+        <button className='bg'>More</button>
+      </p>
+    </div>
+  );
+};
+
+ContactItem.propTypes = {
+  contact: PropTypes.object.isRequired,
+};
+
+export default ContactItem;
