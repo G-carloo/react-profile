@@ -1,0 +1,53 @@
+import React, { useContext } from "react";
+import PropTypes from "prop-types";
+import ContactContext from "../../context/contact/cContext";
+
+const ContactItem = ({ contact }) => {
+  const contactContext = useContext(ContactContext);
+  const { deleteContact, setCurrent, clearCurrent } = contactContext;
+
+  const { id, name, phone, type } = contact;
+
+  const onDelete = ({ contact }) => {
+    deleteContact(id);
+    clearCurrent();
+  };
+
+  return (
+    <div className='Ci'>
+      <h3>{name}</h3>
+      <h4>
+        <span
+          className={
+            "badge" +
+            (type === "professional" ? "badge-success" : "badge-primary")
+          }
+        >
+          {type.charAt(0).toUpperCase() + type.slice(1)}
+        </span>
+      </h4>
+      <ul>
+        {phone && (
+          <p>
+            <i className='fas fa-user' />
+            {phone}
+          </p>
+        )}
+      </ul>
+      <p>
+        <button className='bg' onClick={() => setCurrent(contact)}>
+          Edit
+        </button>
+        <button className='bg' onClick={onDelete}>
+          Delete
+        </button>
+      </p>
+    </div>
+  );
+};
+
+ContactItem.propTypes = {
+  contact: PropTypes.object.isRequired,
+};
+
+export default ContactItem;
