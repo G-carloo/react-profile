@@ -34,17 +34,15 @@ app.post(
 );
 
 // Get contacts
-router.get("/:name", async (req, res) => {
-  const contacts = await Contacts
-  .find({ user: req.user.name })
-  .sort({ date: -1 })
+app.get("/:name", async (req, res) => {
+  const contacts = await Contacts.find({ user: req.user.name }).sort({ date: -1 })
 });
 
 // Update Contact
-router.put("/:name", async (req, res) => {
+app.put("/:name", async (req, res) => {
   const { name, phone }
 
-  let contact = await Contacts.findByName( req.params.name )
+  let contact = await Contacts.findByname( req.params.name )
 
   if(!contact) {
     res.send(404).json({ msg: "Contact not found" })
@@ -52,30 +50,16 @@ router.put("/:name", async (req, res) => {
     res.json(contact)
   }
 
-  const contact = await Contacts.findByNameAndUpdate(
+  const contact = await Contacts.findByIdAndUpdate(
     req.params.name,
     {set: Contact},
     {new: true}
   );
 
   res.json(contact);
- 
 });
 
 // Delete Contact
-router.delete("/name", (req, res) => {
-  let contacts = await Contacts.findByName(req.params.name)
-
-  if(!contact) {
-    res.send(404).json({ msg: "Contact does not exist" })
-  } else {
-    res.json(contact)
-  }
-
-  const contact = await Contacts.findByName(
-    req.params.name,
-    {delete: Contact},
-  );
-
-  res.json({ mg: "Contact deleted" })
+app.delete("/", (req, res) => {
+  const
 });

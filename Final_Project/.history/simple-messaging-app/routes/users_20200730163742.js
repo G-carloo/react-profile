@@ -1,11 +1,12 @@
 const express = require("express");
 const cors = require("cors");
 const router = express.Router();
-const { check } = require("express-validator");
+const validator = require("express-validator");
 const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
 
 const User = require("../participants/User");
+const { check } = require("express-validator");
 users.use(cors());
 
 process.env.SECRET_KEY = "secret";
@@ -69,18 +70,18 @@ users.post("/login", (req, res) => {
             email: user.email,
           };
           let token = jwt.sign(payload, process.env.SECRET_KEY, {
-            expiresIn: 5000,
+            expiresIn: 1440,
           });
           res.send(token);
         } else {
           res.json({ error: "User doesnt't exist(probaly not registered)" });
         }
       } else {
-        res.json({ error: "User doesnt't exist(probaly not registered)" });
+        res.json({ error: "User does not exist" });
       }
     })
     .catch((err) => {
-      res.json({ msg: "Error" + err });
+      res.send("error: " + err);
     });
 });
 

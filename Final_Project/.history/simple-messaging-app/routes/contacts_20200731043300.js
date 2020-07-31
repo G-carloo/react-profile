@@ -59,7 +59,6 @@ router.put("/:name", async (req, res) => {
   );
 
   res.json(contact);
- 
 });
 
 // Delete Contact

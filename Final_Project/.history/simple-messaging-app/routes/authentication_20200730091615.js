@@ -1,16 +1,11 @@
+const mongoose = require("mongoose");
 const express = require("express");
 const bcrypt = require("bcryptjs");
-const jwt = require("../config/default.json");
-const router = express.Router;
+
+const app = express();
 
 // Registering a user
-router.post("/", async (req, res) => {
-  user: {
-    name, email, phone, password, password2;
-  }
-
-  const salt = await jwt.bcrypt;
-
+app.post("/", async (req, res) => {
   try {
     const salt = await bcrypt.hash(req.body.password, 6);
   } catch (err) {
@@ -21,7 +16,7 @@ router.post("/", async (req, res) => {
 });
 
 // Logging in
-router.post("/", (req, res) => {
+app.post("/", (req, res) => {
   res.send("It's been done!");
 });
 

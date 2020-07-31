@@ -2,10 +2,10 @@ const express = require("express");
 const router = express.Router();
 
 const Messages = require("../participants/Message");
-// messages.use(cors());
+messages.use(cors());
 
 // Sending private messages
-router.post("/chats", (req, res) => {
+messages.post("/chats", (req, res) => {
   const message = {
     name: req.body.name,
     messages: req.body.msg,
@@ -25,6 +25,6 @@ router.post("/chats", (req, res) => {
 });
 
 // Getting messages and displaying them
-router.get("/chats", (req, res) => {
-  const messages = await Messages.res.json({ user: req.user.name }).sort({ date: -1 })
+messages.get("/chats", (req, res) => {
+  res.json({ msg: "Message sent" });
 });

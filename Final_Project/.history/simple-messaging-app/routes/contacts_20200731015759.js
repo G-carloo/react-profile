@@ -35,9 +35,7 @@ app.post(
 
 // Get contacts
 router.get("/:name", async (req, res) => {
-  const contacts = await Contacts
-  .find({ user: req.user.name })
-  .sort({ date: -1 })
+  const contacts = await Contacts.find({ user: req.user.name }).sort({ date: -1 })
 });
 
 // Update Contact
@@ -59,7 +57,6 @@ router.put("/:name", async (req, res) => {
   );
 
   res.json(contact);
- 
 });
 
 // Delete Contact

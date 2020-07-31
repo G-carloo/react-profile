@@ -1,6 +1,6 @@
 const express = require("express");
 const bcrypt = require("bcryptjs");
-const jwt = require("../config/default.json");
+
 const router = express.Router;
 
 // Registering a user

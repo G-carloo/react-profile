@@ -1,15 +1,16 @@
 const express = require("express");
+const router = require("express").Router();
 const connectDB = require("./config/db");
 
 const app = express();
 
-app.get("/", (req, res) => res.send());
+// app.get("/", (req, res) => res.render("index.js"));
 
 // Connect Database
 connectDB();
 
 //
-app.use(express.json({ extended: false }));
+router.use(express.json({ extended: false }));
 
 // Define Routes
 app.use("/auth", require("./routes/authentication"));

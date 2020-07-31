@@ -3,13 +3,10 @@ const connectDB = require("./config/db");
 
 const app = express();
 
-app.get("/", (req, res) => res.send());
+app.get("/", (req, res) => res.send("Hello world"));
 
 // Connect Database
 connectDB();
-
-//
-app.use(express.json({ extended: false }));
 
 // Define Routes
 app.use("/auth", require("./routes/authentication"));

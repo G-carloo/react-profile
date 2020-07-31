@@ -1,5 +1,4 @@
 const mongoose = require("mongoose");
-const { Timestamp } = require("mongodb");
 
 const MessageSchema = mongoose.Schema({
   user: {
@@ -9,9 +8,9 @@ const MessageSchema = mongoose.Schema({
   message: {
     type: String,
   },
-  time: {
-    type: Timestamp,
-    default: Timestamp.time,
+  name: {
+    type: String,
+    required: true,
   },
 });
 

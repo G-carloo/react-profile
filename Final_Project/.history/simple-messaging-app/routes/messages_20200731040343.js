@@ -26,5 +26,5 @@ router.post("/chats", (req, res) => {
 
 // Getting messages and displaying them
 router.get("/chats", (req, res) => {
-  const messages = await Messages.res.json({ user: req.user.name }).sort({ date: -1 })
+  res.send("Yes man.");
 });
