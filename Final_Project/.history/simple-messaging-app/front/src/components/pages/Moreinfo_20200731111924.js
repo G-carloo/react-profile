@@ -15,7 +15,8 @@ const Moreinfo = () => {
       <p>
         View{" "}
         <Link to='/Contacts' href='#Contacts'>
-          <a href='#Contacts' />, Add or edit Contacts
+          <a href='#Contacts' />
+          Contacts Add or edit
         </Link>
       </p>
     </div>

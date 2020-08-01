@@ -1,8 +1,10 @@
 const express = require("express");
 const bcrypt = require("bcryptjs");
+const jwt = require("../config/default.json");
 const router = express.Router;
 
 const User = require("./users");
+const { ReplSet } = require("mongodb");
 
 // Registering a user
 router.post("/register", async (req, res) => {
@@ -37,7 +39,7 @@ router.post("/login", async (req, res) => {
         res.send("Not authorised");
       }
     } catch (err) {
-      res.status(500).send("Server error");
+      res.status(500).send();
     }
   }
 });

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { Component, useState } from "react";
 
 const Register = () => {
   const [user, newUser] = useState({
@@ -20,7 +20,7 @@ const Register = () => {
   return (
     <div>
       <h1>Register</h1>
-      <form onSubmit={onSubmit}>
+      <form onSubmit={onsubmit}>
         <div className='form-group'>
           <label htmlFor='name'>Name</label>
           <input

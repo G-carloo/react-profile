@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { Component, useState } from "react";
 
 const Register = () => {
   const [user, newUser] = useState({
@@ -13,14 +13,10 @@ const Register = () => {
 
   const onChange = (e) => newUser({ ...user, [e.target.name]: e.target.value });
 
-  const onSubmit = (e) => {
-    e.preventDefault();
-  };
-
   return (
     <div>
       <h1>Register</h1>
-      <form onSubmit={onSubmit}>
+      <form>
         <div className='form-group'>
           <label htmlFor='name'>Name</label>
           <input

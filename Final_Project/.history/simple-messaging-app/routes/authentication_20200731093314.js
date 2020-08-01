@@ -3,6 +3,7 @@ const bcrypt = require("bcryptjs");
 const router = express.Router;
 
 const User = require("./users");
+const { ReplSet } = require("mongodb");
 
 // Registering a user
 router.post("/register", async (req, res) => {

@@ -50,12 +50,12 @@ const Navbar = () => {
           <MoreOutlined href='#Modal' />
         </Link>
       </h2>
-      <h4>
+      <h2>
         <Link to='/register'>Register</Link>
-      </h4>
-      <h4>
+      </h2>
+      <h2>
         <Link to='/login'>Login</Link>
-      </h4>
+      </h2>
       <ul className='sp' style={sp}>
         <ContactFilter />
       </ul>

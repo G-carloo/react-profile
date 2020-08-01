@@ -7,8 +7,6 @@ import Moreinfo from "./components/pages/Moreinfo";
 import Messages from "./components/layouts/Messages";
 import About from "./components/pages/About";
 import Contactsdisplay from "./components/pages/Contactsdisplay";
-import Login from "./components/pages/Login";
-import Register from "./components/pages/Register";
 
 import ContactState from "./context/contact/cState";
 import "./App.css";
@@ -27,8 +25,8 @@ const App = () => {
               <Route exact path='/Moreinfo' component={Moreinfo} />
               <Route exact path='/About' component={About} />
               <Route exact path='/Contacts' component={Contactsdisplay} />
-              <Route exact path='/login' component={Login} />
-              <Route exact path='/register' component={Register} />
+              <Route exact path='/' component={} />
+              <Route exact path='/' component={} />
             </Switch>
           </div>
         </Fragment>

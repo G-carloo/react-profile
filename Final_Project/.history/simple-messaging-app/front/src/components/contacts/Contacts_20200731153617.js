@@ -13,8 +13,8 @@ const Contacts = () => {
 
   return (
     <Fragment>
-      {filtered !== null
-        ? filtered.map((contact) => (
+      {filter !== null
+        ? filter.map((contact) => (
             <ContactItem key={contact.id} contact={contact} />
           ))
         : contacts.map((contact) => (

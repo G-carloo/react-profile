@@ -34,14 +34,14 @@ app.post(
 );
 
 // Get contacts
-router.get("/:name", auth, async (req, res) => {
+router.get("/:name", async (req, res) => {
   const contacts = await Contacts
   .find({ user: req.user.name })
   .sort({ date: -1 })
 });
 
 // Update Contact
-router.put("/:name", auth, async (req, res) => {
+router.put("/:name", async (req, res) => {
   const { name, phone }
 
   let contact = await Contacts.findByName( req.params.name )
@@ -63,7 +63,7 @@ router.put("/:name", auth, async (req, res) => {
 });
 
 // Delete Contact
-router.delete("/name", auth , (req, res) => {
+router.delete("/name", (req, res) => {
   let contacts = await Contacts.findByName(req.params.name)
 
   if(!contact) {
