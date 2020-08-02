@@ -21,48 +21,48 @@ router.post(
       .isLength({ min: 6 }),
   ],
   (req, res) => {
-    const errors = validationResult(req);
-    if (!errors.isEmpty()) {
+
+    const errors =validationResult(req);
+    if(!errors.isEmpty()) {
       return res.status(400).json({ errors: errors.array() });
     }
 
-    res.send("passed");
-  }
-);
-//   const today = new Date();
-//   const userData = {
-//     name: req.body.name,
-//     email: req.body.email,
-//     phone: req.body.phone,
-//     password: req.body.password,
-//     created: today,
-//   };
+    res.send('passed')
 
-//   User.findOne({
-//     name: req.body.name,
-//   })
-//     .then((user) => {
-//       if (!user) {
-//         bcrypt.hash(req.body.password, 10, (err, hash) => {
-//           userData.password = hash;
-//           User.create(userData)
-//             .then((user) => {
-//               res.json({ status: user.name + "You have been Registered!" });
-//               await user.save();
-//             })
-//             .catch((err) => {
-//               res.send("error: " + err);
-//             });
-//         });
-//       } else {
-//         res.json({ error: "User already exists" });
-//       }
-//     })
-//     .catch((err) => {
-//       res.send("error: " + err);
-//     });
-// }
-// );
+  //   const today = new Date();
+  //   const userData = {
+  //     name: req.body.name,
+  //     email: req.body.email,
+  //     phone: req.body.phone,
+  //     password: req.body.password,
+  //     created: today,
+  //   };
+
+  //   User.findOne({
+  //     name: req.body.name,
+  //   })
+  //     .then((user) => {
+  //       if (!user) {
+  //         bcrypt.hash(req.body.password, 10, (err, hash) => {
+  //           userData.password = hash;
+  //           User.create(userData)
+  //             .then((user) => {
+  //               res.json({ status: user.name + "You have been Registered!" });
+  //               await user.save();
+  //             })
+  //             .catch((err) => {
+  //               res.send("error: " + err);
+  //             });
+  //         });
+  //       } else {
+  //         res.json({ error: "User already exists" });
+  //       }
+  //     })
+  //     .catch((err) => {
+  //       res.send("error: " + err);
+  //     });
+  // }
+);
 
 router.post("/login", (req, res) => {
   User.findOne({
