@@ -25,7 +25,7 @@ const aState = (props) => {
   const [state, dispatch] = useReducer(aReducer, initialState);
 
   // Register User
-  const register = async FormData {
+  const register = asnyc formdata => {
     const web ={
       headers: {
         'Content-Type': 'application/json'
