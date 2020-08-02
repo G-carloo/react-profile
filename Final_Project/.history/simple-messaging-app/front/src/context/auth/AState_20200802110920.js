@@ -1,0 +1,66 @@
+import React, { useReducer } from "react";
+import aContext from "./aContext";
+import aReducer from "./aReducer";
+import {
+  REGISTER_SUCCESS,
+  REGISTER_FAIL,
+  USER_LOADED,
+  AUTH_ERROR,
+  LOGIN_SUCCESS,
+  LOGIN_FAIL,
+  LOGOUT,
+  CLEAR_ERRORS,
+} from "../Functions";
+
+const aState = (props) => {
+  const initialState = {
+    token: localStorage.getItem("token"),
+    isAuthenticated: null,
+    loading: null,
+    error: null,
+    user: null,
+  };
+
+  const [state, dispatch] = useReducer(aReducer, initialState);
+
+  // Register User
+  const addContact = (contact) => {
+    dispatch({ type: ADD_CONTACT, payload: contact });
+  };
+
+  //Login User
+  const deleteContact = (name) => {
+    dispatch({ type: DELETE_CONTACT, payload: name });
+  };
+
+  // Load User
+  const setCurrent = (contact) => {
+    dispatch({ type: SET_CURRENT, payload: contact });
+  };
+
+  // Logout
+  const clearCurrent = (contact) => {
+    dispatch({ type: CLEAR_CURRENT });
+  };
+
+  // Clear Errors
+  const clearFilter = () => {
+    dispatch({ type: CLEAR_FILTER, payload: null });
+  };
+
+  return (
+    <aContext.Provider
+      value={{
+        token: state.token,
+        isAuthenticated: state.isAuthenticated,
+        loading: state.loading,
+        error: state.error,
+        user: state.user,
+      }}
+    >
+      {props.children}
+    </aContext.Provider>
+  );
+};
+
+export default aState;
