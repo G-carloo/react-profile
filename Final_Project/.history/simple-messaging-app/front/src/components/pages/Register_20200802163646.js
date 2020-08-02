@@ -1,6 +1,6 @@
 import React, { useState, useContext } from "react";
 import Errors from "../extras/errors";
-import aContext from "../../context/auth/aContext";
+import aContext from "../../context/erroralert/eaContext";
 
 const Register = () => {
   const alertcontext = useContext(Errors);
@@ -89,7 +89,7 @@ const Register = () => {
         <div className='form-group'>
           <label htmlFor='password2'>Confirm Password</label>
           <input
-            type='password'
+            type='password2'
             name='password2'
             value={password2}
             onChange={onChange}

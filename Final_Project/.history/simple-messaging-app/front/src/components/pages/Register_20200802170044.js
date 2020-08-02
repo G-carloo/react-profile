@@ -89,9 +89,9 @@ const Register = () => {
         <div className='form-group'>
           <label htmlFor='password2'>Confirm Password</label>
           <input
-            type='password'
-            name='password2'
-            value={password2}
+            type='password2'
+            name='password'
+            value={password}
             onChange={onChange}
             placeholder='Confirm password'
             minLength='6'

@@ -13,7 +13,7 @@ import {
   CLEAR_ERRORS,
 } from "../Functions";
 
-const AState = (props) => {
+const aState = (props) => {
   const initialState = {
     token: localStorage.getItem("token"),
     isAuthenticated: null,
@@ -42,7 +42,7 @@ const AState = (props) => {
     } catch (err) {
       dispatch({
         type: REGISTER_FAIL,
-        payload: err.response.data.msg,
+        payload: res.response.data.msg,
       });
     }
   };
@@ -79,4 +79,4 @@ const AState = (props) => {
   );
 };
 
-export default AState;
+export default aState;

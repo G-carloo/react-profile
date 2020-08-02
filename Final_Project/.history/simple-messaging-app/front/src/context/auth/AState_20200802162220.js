@@ -13,7 +13,7 @@ import {
   CLEAR_ERRORS,
 } from "../Functions";
 
-const AState = (props) => {
+const aState = (props) => {
   const initialState = {
     token: localStorage.getItem("token"),
     isAuthenticated: null,
@@ -33,7 +33,7 @@ const AState = (props) => {
     };
 
     try {
-      const res = await axios.post("users", FormData, web);
+      const response = await axios.post("users", FormData, web);
 
       dispatch({
         type: REGISTER_SUCCESS,
@@ -42,7 +42,7 @@ const AState = (props) => {
     } catch (err) {
       dispatch({
         type: REGISTER_FAIL,
-        payload: err.response.data.msg,
+        payload: res.data.msg,
       });
     }
   };
@@ -79,4 +79,4 @@ const AState = (props) => {
   );
 };
 
-export default AState;
+export default aState;

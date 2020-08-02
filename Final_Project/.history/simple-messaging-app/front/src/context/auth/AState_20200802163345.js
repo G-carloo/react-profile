@@ -33,7 +33,7 @@ const AState = (props) => {
     };
 
     try {
-      const res = await axios.post("users", FormData, web);
+      const resp = await axios.post("users", FormData, web);
 
       dispatch({
         type: REGISTER_SUCCESS,
