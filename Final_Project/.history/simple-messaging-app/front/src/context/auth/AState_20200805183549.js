@@ -26,7 +26,7 @@ const AState = (props) => {
   const [state, dispatch] = useReducer(aReducer, initialState);
 
   // Register User
-  const Register = async (user) => {
+  const register = async (user) => {
     const web = {
       headers: {
         "Content-Type": "application/json",
@@ -43,7 +43,7 @@ const AState = (props) => {
     } catch (err) {
       dispatch({
         type: REGISTER_FAIL,
-        payload: err.res.data.msg,
+        payload: err.response.data.msg,
       });
     }
   };

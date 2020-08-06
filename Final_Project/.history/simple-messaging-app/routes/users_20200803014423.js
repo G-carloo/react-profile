@@ -48,23 +48,12 @@ router.post(
 
       await user.save();
 
-      const payload = {
-        user: {
-          id: user.id
-        }
-      }
-
-      jwt.sign(payload, config.get('jwtSecret'), {
-        expiresIn: 10000
-      }, (err, token) => {
-        if(err) throw err;
-        res.json({ token })
-      })
+      res.send('You have been registered')
     } catch (err) {
       console.error(err.msg);
       res.status(500).send('Server Error')
     };
-  })
+  }
 //   const today = new Date();
 //   const userData = {
 //     name: req.body.name,

@@ -4,7 +4,7 @@ import aContext from "../../context/auth/aContext";
 
 const Register = () => {
   const alertcontext = useContext(EaContext);
-  const aContext = useContext(aContext);
+  const AContext = useContext(aContext);
 
   const { Alert } = EaContext;
 
