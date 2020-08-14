@@ -1,8 +1,7 @@
 import React from "react";
 
 const front = {
-  border: "",
-  width: "",
+  width,
 };
 
 export default class MyForm extends React.Component {

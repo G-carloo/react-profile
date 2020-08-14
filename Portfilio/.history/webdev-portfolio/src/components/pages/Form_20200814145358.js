@@ -1,9 +1,6 @@
 import React from "react";
 
-const front = {
-  border: "",
-  width: "",
-};
+const front = {};
 
 export default class MyForm extends React.Component {
   constructor(props) {
@@ -22,7 +19,6 @@ export default class MyForm extends React.Component {
         action='https://formspree.io/moqkbrjb'
         method='POST'
         style={front}
-        className='form'
       >
         <label>Email:</label>
         <input type='email' name='email' />
