@@ -83,9 +83,7 @@ const Experience = () => {
             <button style={btnStyles}>
               <strong>
                 <h3>
-                  <a href='https://drive.google.com/file/d/0B7O3kKZY3JMmLTE4X1lhNEhIa3MxNWstVzc5Z2VHb2V3U2RB/view?usp=sharing'>
-                    CHECK OUT MY RESUME
-                  </a>
+                  <a>CHECK OUT MY RESUME</a>
                 </h3>
               </strong>
             </button>
