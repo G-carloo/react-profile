@@ -1,9 +1,10 @@
 import React from "react";
 
 const form = {
-  padding: "20px",
-  width: "300px",
-  display: "flex-box",
+  padding: "40px",
+  width: "auto",
+  margin: "auto",
+  border: "solid",
 };
 
 export default class MyForm extends React.Component {
@@ -18,24 +19,27 @@ export default class MyForm extends React.Component {
   render() {
     const { status } = this.state;
     return (
-      <form
-        onSubmit={this.submitForm}
-        action='mgcarloo6@gmail.com'
-        method='POST'
-        style={form}
-      >
-        {/* <!-- add your custom form HTML here --> */}
-        <label>Email:</label>
-        <input type='email' name='email' placeholder='Enter email . . .' />
-        <label>Message:</label>
-        <input type='text' name='message' placeholder="What's on your mind ?" />
-        {status === "SUCCESS" ? <p>Thanks!</p> : <button>Submit</button>}
-        {status === "ERROR" && <p>Ooops! There was an error.</p>}
-      </form>
-    );
+
+<form
+  action="https://formspree.io/moqkbrjb"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="text" name="_replyto">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+
+  <!-- your other form fields go here -->
+
+  <button type="submit">Send</button>
+</form>    );
   }
 
-  submitForm(ev) {
+   submitForm(ev) {
     ev.preventDefault();
     const form = ev.target;
     const data = new FormData(form);

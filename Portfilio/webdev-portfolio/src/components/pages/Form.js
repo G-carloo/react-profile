@@ -1,12 +1,5 @@
 import React from "react";
 
-const form = {
-  padding: "40px",
-  width: "auto",
-  margin: "auto",
-  border: "solid",
-};
-
 export default class MyForm extends React.Component {
   constructor(props) {
     super(props);
@@ -21,25 +14,13 @@ export default class MyForm extends React.Component {
     return (
       <form
         onSubmit={this.submitForm}
-        action='mgcarloo6@gmail.com'
+        action='https://formspree.io/moqkbrjb'
         method='POST'
-        style={form}
       >
-        {/* <!-- add your custom form HTML here --> */}
         <label>Email:</label>
-        <input
-          type='email'
-          name='email'
-          placeholder='Enter email . . .'
-          className='form'
-        />
+        <input type='email' name='email' />
         <label>Message:</label>
-        <input
-          type='text'
-          name='message'
-          placeholder="What's on your mind ?"
-          className='form'
-        />
+        <input type='text' name='message' />
         {status === "SUCCESS" ? <p>Thanks!</p> : <button>Submit</button>}
         {status === "ERROR" && <p>Ooops! There was an error.</p>}
       </form>
